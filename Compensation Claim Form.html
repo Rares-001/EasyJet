@@ -1,0 +1,2354 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.easyjet.com/it/claim/welfare -->
+<html lang="it" class="privacy-testGroup-2"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><script type="text/javascript" async="" charset="utf-8" src="./Compensation Claim Form_files/recaptcha__it.js" crossorigin="anonymous" integrity="sha384-IvWMVx6txnlKHiQ6IfX68k8eaekFTeEDMpO78QouN3PMURqwOVAPDlDBF7ZkIKsc"></script><script type="text/javascript" async="" src="./Compensation Claim Form_files/735ca894f292604e3d55069294561237.js"></script><script src="./Compensation Claim Form_files/serverComponent.php"></script>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compensation Claim Form</title>
+
+    <link href="./Compensation Claim Form_files/bootstrap.min.css" )"="" rel="stylesheet">
+    <link href="./Compensation Claim Form_files/font-awesome.css" )"="" rel="stylesheet">
+    <link href="./Compensation Claim Form_files/claimform.css" )"="" rel="stylesheet">
+
+    <script type="text/javascript" src="./Compensation Claim Form_files/ebb4a19cc2e97ca1085a61fc1d564b920c001677d848"></script><script src="./Compensation Claim Form_files/65319_1825202430.js" crossorigin="anonymous"></script><script src="./Compensation Claim Form_files/65257_1825232097.js" crossorigin="anonymous"></script><script src="./Compensation Claim Form_files/64885_1825202523.js" crossorigin="anonymous"></script><script src="./Compensation Claim Form_files/65226_747628217.js" crossorigin="anonymous"></script><script src="./Compensation Claim Form_files/jquery.min.js"></script>
+    <script src="./Compensation Claim Form_files/knockout.min.js"></script>
+    <script src="./Compensation Claim Form_files/lodash.min.js"></script>
+    <!--[if lt IE 10]>
+        <script type="text/javascript">
+            // Fixes Bootstrap drop down bug in IE9 (open class is removed fine by BS)
+            $(document).on("click",
+                "[data-toggle=dropdown]",
+                function(e) {
+                    var $dropdown = $(this).closest('.dropdown');
+                    if (!$dropdown.hasClass('open')) {
+                        $dropdown.addClass('open');
+                    } else {
+                        $dropdown.removeClass('open');
+                    }
+                });
+        </script>
+    <![endif]-->
+<script src="./Compensation Claim Form_files/Bootstrap.js" type="text/javascript"></script><style type="text/css">.ensNotifyBanner {
+    background-color: #191b23;
+    color: #ededed;
+    opacity: 0.8;
+    width: 60%;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+    position: fixed;
+    bottom: 50px;
+    display: none;
+    z-index: 9999;
+}
+
+.ensButtons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+.ensButtons .button {
+    display: inline-block;
+    position: relative;
+    padding: 8px 2px; /* Controls the button's height and width relative to its text content */
+    border-radius: 2px;
+    font-size: 0.9em;
+    white-space: nowrap; /* Prevents text from wrapping inside button */
+    overflow: hidden;    /* Ensures overflowing text doesn't spill out of the button */
+    background-color: #fff;
+    color: #646464;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.ensButtons .button.grey {
+    background-color: #eee;
+}
+
+.ensButtons .button.blue {
+    background-color: #2b5cac;
+    color: #fff;
+}
+
+.ensButtons .button.raised {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.ensButtons .button.raised:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}
+
+.ensClear {
+    clear: both;
+}
+
+.ensModalLink {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ensModalLink:hover {
+    color: #2b5cac;
+}
+</style><style type="text/css">html[lang="he-IL"] #ensModalWrapper,
+html[lang="he-IL"] #ensNotifyBanner {
+    direction: rtl;
+}
+
+html[lang="he-IL"] #ensNotifyBanner #ensOpenModal {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+html[lang="he-IL"]  #ensNotifyBanner li, html[lang="he-IL"]  #ensNotifyBanner p {
+    text-align: unset !important;
+}
+
+html[lang="he-IL"] #ensModalWrapper .ensModal .card {
+    top: 0;
+}
+
+html[lang="he-IL"] #ensModalWrapper .ensModal .switch {
+    margin-right: 14px;
+}
+
+.ensTempHide {
+    display: none !important;
+}
+
+#ensBannerBG {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 99999999 !important;
+    height: 100% !important;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+}
+
+#ensModalBG {
+    display: none;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999999999 !important;
+    height: 100% !important;
+    margin: 0;
+    opacity: 1;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100% !important;
+}
+
+body #ensNotifyBanner {
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    opacity: 1;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    padding: 26px 40px 40px 40px;
+    width: 760px;
+    height: -moz-max-content !important;
+    height: -webkit-max-content !important;
+    top: 10vh;
+    right: 0;
+    bottom: 0;
+    left: 0 !important;
+    margin: 0 auto;
+    z-index: 9999999999;
+    box-sizing: content-box;
+}
+
+body #ensNotifyBanner .ensBannerHeader {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-family: "easyjet_rounded_headlineRg", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body #ensNotifyBanner .ensBannerHeader:before {
+    content: "";
+    background-image: url(https://www.easyjet.com/holidays/cms/media/-/jssmedia/Project/Holidays/Other/Homepage/24_Cookie.ashx);
+    background-size: 70px;
+    display: inline-flex;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: -30px;
+    right: 12px;
+    width: 60px;
+    height: 78px;
+}
+
+body #ensNotifyBanner #ensBannerDescription {
+    max-height: 50vh;
+    overflow: auto;
+}
+
+body #ensNotifyBanner ul {
+    padding: 10px 0 0 17px;
+}
+
+body #ensNotifyBanner li {
+    text-align: left;
+}
+
+body #ensNotifyBanner #ensBannerDescription p {
+    line-height: 1.25;
+    font-weight: unset;
+    text-align: left;
+    font-size: 16px;
+}
+
+body #ensNotifyBanner #ensBannerDescription a {
+    text-decoration: none;
+    color: #f60;
+}
+
+body #ensNotifyBanner .ensButtons {
+    float: none;
+    width: 530px !important;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+}
+
+body #ensNotifyBanner #ensCloseBanner {
+    height: 50px;
+    width: 250px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    margin-bottom: 10px;
+    border: 1px #f60 solid;
+    background-color: #f60;
+    color: #fff;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+}
+
+#ensNotifyBanner #ensRejectAll {
+    float: right;
+    background: none;
+    border: none;
+    color: #f60;
+    right: 14px;
+    top: 16px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.privacy-testGroup-1 #ensNotifyBanner #ensBannerDescription p,
+.privacy-testGroup-2 #ensNotifyBanner #ensBannerDescription p,
+.privacy-testGroup-3 #ensNotifyBanner #ensBannerDescription p {
+    margin-top: 10px;
+}
+
+.privacy-testGroup-1 #ensNotifyBanner #ensCloseBanner,
+.privacy-testGroup-2 #ensNotifyBanner #ensCloseBanner,
+.privacy-testGroup-3 #ensNotifyBanner #ensCloseBanner {
+    background-color: #fff;
+    color: #f60;
+}
+
+.privacy-testGroup-1 #ensNotifyBanner #ensCloseBanner,
+.privacy-testGroup-1 #ensNotifyBanner #ensOpenModal {
+    width: 180px;
+}
+
+.privacy-testGroup-1 #ensNotifyBanner #ensRejectAll {
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    border: 1px #f60 solid;
+    background-color: #fff;
+    color: #f60;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.privacy-testGroup-2 #ensNotifyBanner {
+    height: 333px;
+    padding-bottom: 20px;
+}
+
+.privacy-testGroup-2 #ensNotifyBanner .ensRejectDiv {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 16px;
+    border-top: 1px #ccc solid;
+    display: flex;
+}
+
+.privacy-testGroup-2 #ensNotifyBanner #ensRejectAll {
+    height: 50px;
+    width: 180px;
+    font-size: 16px;
+    box-shadow: none;
+    border: none;
+    background-color: #fff;
+    color: #f60;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin: 0 auto;
+    position: unset;
+}
+
+.privacy-testGroup-3 #ensNotifyBanner #ensRejectAll {
+    float: right;
+    background: none;
+    border: none;
+    color: #f60;
+    right: 14px;
+    top: 16px;
+    position: absolute;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body #ensNotifyBanner #ensOpenModal {
+    box-shadow: none;
+    border: 1px #f60 solid;
+    color: #f60;
+    font-size: 16px;
+    height: 50px;
+    width: 250px;
+    margin: 0;
+    float: left;
+    margin-right: 30px;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+}
+
+body #ensModalWrapper {
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    opacity: 1;
+    background-color: white;
+    color: black;
+    border: 0;
+    border-radius: 6px;
+    padding: 40px 10px 20px 10px;
+    width: 800px;
+    height: max-content;
+    top: 10vh !important;
+    right: 0;
+    bottom: 0;
+    left: 0 !important;
+    margin: 0 auto;
+    box-shadow: none;
+    position: absolute;
+    z-index: 9999999999;
+}
+
+body #ensModalWrapper .ensCloseModal {
+    float: right;
+    font-size: 26px;
+    background: white;
+    border: 0;
+    cursor: pointer;
+    margin-top: -32px;
+}
+
+body #ensModalWrapper .ensModal {
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body #ensModalWrapper .ensTitle {
+    position: relative;
+    color: black;
+    font-size: 26px;
+    font-family: "easyjet_rounded_headlineRg", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body #ensModalWrapper .consentDescription {
+    font-size: 16px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body #ensModalWrapper .ensToggleRowWrapper {
+    max-height: 1000px;
+    overflow-x: hidden;
+}
+
+body #ensModalWrapper .ensToggleRow {
+    margin: 20px 0;
+    position: relative;
+}
+
+body #ensModalWrapper .ensToggleRow:nth-child(0) {
+    margin-top: 10px;
+}
+
+body #ensModalWrapper .ensToggleLabel {
+    font-weight: bold;
+    display: inline-flex;
+}
+
+body #ensModalWrapper .ensToggleLabelText {
+    width: 695px;
+}
+
+body #ensModalWrapper .ensModal .description {
+    max-width: 600px;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body #ensModalWrapper .ensModal .card {
+    display: inline-block;
+    outline: none !important;
+    top: 18px;
+    margin: 9px;
+    margin: 5px;
+    width: 54px;
+    height: 24px;
+    text-align: center;
+    position: relative;
+    float: right;
+    border: 0px !important;
+    box-shadow: none;
+    background: none;
+    overflow: inherit;
+}
+
+body .ensModal input[type='checkbox'] {
+    position: absolute !important;
+    overflow: hidden;
+    clip: auto;
+  	appearance: none;
+    white-space: nowrap;
+    width: 54px;
+    height: 50px;
+    position: absolute;
+    top: -10px;
+    left: -11px;
+}
+
+body #ensModalWrapper .ensModal .switch {
+    background: #c5c5c5 !important;
+    display: block;
+    width: 40px;
+    height: 12px;
+    border-radius: 25px;
+    position: relative;
+    transition: .5s;
+}
+
+body #ensModalWrapper .ensModal input[type='checkbox']:checked~.switch {
+    background: #ffd589 !important;
+    transition: .5s;
+}
+
+body #ensModalWrapper .ensToggleRow .toggle {
+    width: 20px !important;
+    height: 20px !important;
+    top: -4px !important;
+    box-shadow: 0px 0px 0px grey !important;
+    display: block !important;
+    position: absolute;
+    border-radius: 50%;
+    left: 0px;
+    background: #808080;
+}
+
+body #ensModalWrapper .ensModal input[type='checkbox']:checked~.toggle {
+    left: 20px !important;
+    background: #f60;
+    transition: .5s;
+}
+
+body #ensModalWrapper .ensToggleFlag {
+    position: absolute;
+    left: 9px;
+    bottom: -16px;
+}
+
+body #ensModalWrapper #ensSave {
+    background-color: white;
+    color: #f60;
+    box-shadow: none;
+    border: 0;
+    margin: 0;
+    margin-right: 40px;
+    padding: 0;
+    width: auto;
+    height: 17px;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+}
+
+body #ensModalWrapper #ensAcceptAll {
+    background-color: #f60;
+    color: #fff;
+    box-shadow: none;
+    border: 0;
+    width: 180px;
+    height: 44px;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+}
+
+body #ensModalWrapper .ensButtonsUK #ensSave,
+body #ensModalWrapper .ensButtonsUK #ensAcceptAll,
+body #ensModalWrapper .ensButtonsUK #ensRejectAllModal {
+    box-shadow: none;
+    border: 1px #f60 solid;
+    background-color: #fff;
+    color: #f60;
+    font-size: 16px;
+    height: auto;
+    width: 200px;
+    margin: 0;
+    float: left;
+    margin-right: 16px;
+    font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+}
+
+body #ensModalWrapper .ensButtonsUK button:last-of-type {
+    margin-right: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    html[lang="he-IL"] #ensModalWrapper .ensModal .card {
+        float: left;
+        left: -4px;
+    }
+
+    html[lang="he-IL"] #ensModalWrapper .ensModal .switch {
+        margin-right: -4px;
+    }
+
+    html[lang="he-IL"] #ensModalWrapper .ensToggleRow:first-of-type {
+        margin: 12px 0 30px 0;
+    }
+
+    html[lang="he-IL"] #ensNotifyBanner #ensOpenModal {
+        margin-left: 0;
+    }
+
+    body #ensNotifyBanner {
+        width: 94%;
+        padding: 10px 10px 20px 10px;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner {
+        top: 2vh;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner {
+        top: 2vh;
+    }
+
+    .privacy-testGroup-3 #ensNotifyBanner {
+        top: 2vh;
+        padding-top: 26px;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner #ensRejectAll {
+        width: 100%;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner #ensCloseBanner,
+    .privacy-testGroup-1 #ensNotifyBanner #ensOpenModal {
+        width: 100%;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner .ensRejectDiv {
+        padding: 20px 0 0 0;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner #ensRejectAll {
+        height: 20px;
+        width: 100%;
+    }
+
+    .privacy-testGroup-3 #ensNotifyBanner #ensRejectAll {
+        font-family: "easyjet_rounded_bookRg", Arial, Helvetica, sans-serif;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner .ensRejectDiv {
+        margin-top: 6px;
+    }
+
+    body #ensNotifyBanner #ensBannerDescription {
+        text-align: center;
+        max-height: 69vh;
+        overflow: auto;
+    }
+
+    body #ensNotifyBanner .ensBannerHeader:before {
+        background-size: 56px;
+        height: 60px;
+        right: 4px;
+        bottom: -20px;
+    }
+
+    body #ensNotifyBanner .ensBannerHeader {
+        font-size: 30px;
+        padding-bottom: 18px;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner .ensBannerHeader,
+    .privacy-testGroup-2 #ensNotifyBanner .ensBannerHeader,
+    .privacy-testGroup-3 #ensNotifyBanner .ensBannerHeader {
+        padding-bottom: 8px;
+    }
+
+    body #ensNotifyBanner #ensBannerDescription p {
+        line-height: 1.2;
+        margin: 0;
+    }
+
+    body #ensNotifyBanner .ensButtons {
+        margin-top: 20px;
+        width: 100% !important;
+        display: block;
+        box-sizing: border-box;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner .ensButtons,
+    .privacy-testGroup-2 #ensNotifyBanner .ensButtons,
+    .privacy-testGroup-3 #ensNotifyBanner .ensButtons {
+        margin-top: 10px;
+    }
+
+    body #ensNotifyBanner #ensCloseBanner {
+        width: 100%;
+    }
+
+    body #ensNotifyBanner #ensOpenModal {
+        width: 100%;
+        height: 50px;
+        text-decoration: unset;
+        border: 1px solid #f60;
+        margin-bottom: 10px;
+    }
+
+    body #ensModalWrapper {
+        position: fixed;
+        width: 100%;
+        max-width: 95%;
+        height: 100%;
+        overflow: auto;
+        top: 0 !important;
+        border-radius: 0;
+        padding: 10px 10px 20px 10px;
+    }
+
+    body #ensModalWrapper .ensCloseModal {
+        display: none;
+    }
+
+    body #ensModalWrapper .ensToggleLabel {
+        max-width: 80%;
+        display: unset;
+    }
+
+    body #ensModalWrapper .ensToggleRowWrapper {
+        padding-bottom: 36px;
+        max-height: 545px;
+    }
+
+    body #ensModalWrapper .ensToggleRow {
+        margin: 20px 0 30px 0;
+    }
+
+    body #ensModalWrapper .ensToggleLabelText {
+        display: inline-block;
+        max-width: 60vw;
+    }
+
+    body #ensModalWrapper .ensCatArrowDown {
+        border: solid #f60;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
+        padding: 6px;
+        margin: 0 14px 3px 3px;
+        cursor: pointer;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    body #ensModalWrapper .ensCatArrowUp {
+        border: solid #f60;
+        border-width: 3px 0 0 3px;
+        display: inline-block;
+        padding: 6px;
+        margin: 0 14px -4px 3px;
+        cursor: pointer;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    body #ensModalWrapper .ensToggleRow:first-of-type {
+        margin: 12px 0 20px 0;
+    }
+
+    body #ensModalWrapper .ensToggleRowTitle {
+        position: absolute;
+        width: 70%;
+        height: 40px;
+        z-index: 9999;
+    }
+
+    body #ensModalWrapper .ensModal .card {
+        top: -9px;
+        width: 36px;
+    }
+
+    body #ensModalWrapper .ensToggleLabel .card.cardLongTitle {
+        top: -4px;
+    }
+
+    body #ensModalWrapper .ensModal .description {
+        max-width: 70%;
+        margin-left: 26px;
+    }
+
+    body #ensModalWrapper .consentDescription {
+        width: 100%;
+    }
+
+    body #ensModalWrapper .ensButtons {
+        display: inline-flex;
+        width: 90%;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        padding: 20px;
+        background: #fff;
+    }
+
+    body #ensModalWrapper #ensSave {
+        margin-right: unset;
+        width: 180px;
+        height: 44px;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+
+    body #ensModalWrapper .ensButtonsUK #ensSave,
+    body #ensModalWrapper .ensButtonsUK #ensAcceptAll,
+    body #ensModalWrapper .ensButtonsUK #ensRejectAllModal {
+        min-height: 60px;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+    body #ensNotifyBanner {
+        width: 80%;
+        top: 5vh;
+    }
+
+    body #ensModalWrapper {
+        max-width: min-content;
+    }
+
+    body #ensModalWrapper #ensBannerDescription {
+        max-height: 50vh;
+        overflow: auto;
+    }
+
+    body #ensModalWrapper .ensToggleLabel {
+        display: block;
+    }
+
+    body #ensModalWrapper .ensToggleLabelText {
+        width: 510px;
+    }
+
+    body #ensModalWrapper .ensModal .description {
+        max-width: 450px;
+    }
+
+    body #ensModalWrapper .consentDescription {
+        width: 100%;
+    }
+
+    body #ensModalWrapper .ensButtons {
+        width: 100%;
+        display: flex;
+    }
+
+    body #ensModalWrapper #ensSave {
+        width: 100%;
+        height: 44px;
+        border: 1px solid #f60;
+        margin-top: 10px;
+    }
+
+    body #ensModalWrapper #ensAcceptAll {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    body #ensModalWrapper .ensToggleLabelText {
+        max-width: 55vw;
+    }
+
+    body #ensModalWrapper .ensButtonsUK #ensSave,
+    body #ensModalWrapper .ensButtonsUK #ensAcceptAll,
+    body #ensModalWrapper .ensButtonsUK #ensRejectAllModal {
+        font-size: 14px;
+        margin-right: 7px;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-width: 900px) {
+    body #ensNotifyBanner {
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner {
+        max-height: 89vh;
+        padding-bottom: 8px;
+    }
+
+    body #ensNotifyBanner #ensBannerDescription {
+        text-align: center;
+        max-height: 190px;
+        overflow: auto;
+    }
+
+    body .privacy-testGroup-2 #ensNotifyBanner #ensBannerDescription {
+        max-height: 180px;
+    }
+
+    body #ensNotifyBanner .ensButtons {
+        display: flex;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner .ensRejectDiv {
+        padding-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 700px) {
+    .privacy-testGroup-2 #ensNotifyBanner #ensBannerDescription {
+        max-height: 440px;
+        overflow-y: auto;
+    }
+
+    body #ensModalWrapper .ensToggleRowWrapper {
+        max-height: 335px;
+    }
+}
+
+@media only screen and (max-width: 375px) and (max-height: 600px) {
+    body #ensNotifyBanner #ensBannerDescription {
+        max-height: 325px;
+        overflow-y: auto;
+        margin-top: 72px;
+    }
+
+    .privacy-testGroup-1 #ensNotifyBanner #ensBannerDescription {
+        margin-top: 75px;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner #ensBannerDescription {
+        max-height: 270px;
+    }
+
+    body #ensNotifyBanner .ensBannerHeader {
+        position: absolute;
+        width: 94%;
+        background: #fff;
+        top: 25px;
+    }
+
+    .privacy-testGroup-2 #ensNotifyBanner .ensBannerHeader {
+        top: 6px;
+    }
+
+    body #ensModalWrapper .ensToggleRowWrapper {
+        max-height: 260px;
+    }
+
+    body #ensModalWrapper .ensButtons {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (orientation:landscape) and (max-height: 415px) {
+    body #ensNotifyBanner {
+        top: 2vh;
+        max-height: 84vh;
+        overflow: auto;
+    }
+
+    body #ensModalWrapper .ensModal .description {
+        display: block !important;
+    }
+}
+
+#ensNotifyBanner *:focus, #ensModalWrapper *:focus {
+    outline: auto !important;
+}
+#ensModalWrapper .ensCheckboxHideFocus:focus {
+    outline: none !important;
+}</style><style type="text/css">.ensCenter {
+    text-align: center;
+}
+#ensModalWrapper {
+    border: 1px solid #333;
+    position: fixed;
+    max-width: 80%;
+    border: 1px solid #000;
+    display: none;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #fff;
+    padding: 20px 0;
+    z-index: 9999;
+}
+.ensModal {
+    font-family: Roboto, "Helvetica Neue", Helvetica, Arial;
+}
+.ensModal input[type="checkbox"] {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}
+.ensModal input[type="checkbox"]:checked ~ .toggle {
+    background: #fff;
+    left: 36px;
+    transition: 0.5s;
+}
+.ensModal input[type="checkbox"]:checked ~ .switch {
+    background: #43a047;
+    transition: 0.5s;
+}
+
+.ensModal .switch {
+    display: block;
+    width: 50px;
+    height: 15px;
+    background: #939393;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    transition: 0.5s;
+}
+
+.ensModal .toggle {
+    height: 17px;
+    width: 17px;
+    border-radius: 50%;
+    background: white;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+.ensModal .card {
+    display: inline-block;
+    margin: 9px;
+    margin: 5px;
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    position: relative;
+    float: right;
+}
+
+.ensModal {
+    font-size: 18px;
+    color: #333;
+    padding: 20px;
+}
+.ensToggleRow {
+    margin-bottom: 10px;
+}
+.ensToggleLabel {
+    margin-right: 5px;
+}
+.ensButtons {
+    clear: both;
+    margin-top: 15px;
+    float: right;
+}
+.ensButtons .button {
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 32px;
+    border-radius: 2px;
+    font-size: 0.9em;
+    background-color: #fff;
+    color: #646464;
+    margin-left: 20px;
+}
+.ensButtons .button.grey {
+    background-color: #eee;
+}
+.ensButtons .button.blue {
+    background-color: #2b5cac;
+    color: #fff;
+}
+
+.ensButtons .button.raised {
+    transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0.2s;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.ensButtons .button.raised:active {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+    transition-delay: 0s;
+}
+
+.ensModal .ensTitle {
+    margin: 5px;
+    width: 95%;
+    color: #74736f;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    padding-left: 5%;
+    padding-top: 13px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+.ensModal .consentDescription {
+    color: #333;
+    font-size: 14px;
+}
+
+.ensModal hr {
+    color: #c5c5c5;
+}
+
+.ensModal .description {
+    max-width: 600px;
+    font-size: 12px;
+    margin-top: 15px;
+    clear: both;
+}
+
+.ensToggleLabel.chevron::before {
+    border-style: solid;
+    border-width: 2px 2px 0 0;
+    content: "";
+    display: inline-block;
+    height: 8px;
+    margin: 0 5px 2px 0;
+    position: relative;
+    width: 8px;
+}
+
+.ensToggleLabel.chevron.right:before {
+    transform: rotate(45deg);
+}
+
+.ensToggleLabel.chevron.bottom:before {
+    margin-left: 2px;
+    margin-bottom: 3px;
+    transform: rotate(135deg);
+}
+
+.ensModal .ensTagsContent {
+    display: none;
+    padding: 0 0 0 20px;
+}
+
+.ensModal .tagContainer {
+    color: #676767;
+    padding: 7px 0 7px 7px;
+    font-size: 15px;
+}
+
+.contactInfoLink {
+    display: block;
+    margin-bottom: 4px;
+}
+
+.ensToggleRowWrapper {
+    max-height: 400px;
+    overflow: auto;
+}
+</style></head><iframe style="width: 0px; height: 0px; display: none;" src="./Compensation Claim Form_files/saved_resource(1).html"></iframe>
+<body>
+        <input type="hidden" data-bind="value: GetCookie(&#39;&#39;)" value="//privacy.easyjet.com/easyjet/it/Bootstrap.js">
+<div class="logoHeader clearfix">
+    <div class="main">
+        <img src="./Compensation Claim Form_files/easyjet-logo.gif" alt="EasyJet" class="logoHeaderDisplay pull-left">
+        <div class="dropdown lang-list pull-right" data-bind="if: !showLoading(), style: { display : !showLoading() ? &#39;block&#39; : &#39;none&#39; }" style="display: block;">
+            <span class="dropdown-toggle lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="LanguagesDropDown">
+                <span data-bind="attr: { class: &#39;lang-&#39; + ko.meta.language() }" class="lang-it"><span class="lang-flags"></span><span data-bind="text: GetLanguageName()">Italiano</span></span>
+            </span>
+            <ul class="dropdown-menu dropdown-menu-langs" aria-labelledby="LanguagesDropDown">
+                <li class="lang-en" data-bind="click: Language.bind($data, &#39;en&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;en&#39;)">English</span></li>
+                <li class="lang-de" data-bind="click: Language.bind($data, &#39;de&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;de&#39;)">Deutsch</span></li>
+                <li class="lang-es" data-bind="click: Language.bind($data, &#39;es&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;es&#39;)">Castellano</span></li>
+                <li class="lang-fr" data-bind="click: Language.bind($data, &#39;fr&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;fr&#39;)">Français</span></li>
+                <li class="lang-it" data-bind="click: Language.bind($data, &#39;it&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;it&#39;)">Italiano</span></li>
+                <li class="lang-nl" data-bind="click: Language.bind($data, &#39;nl&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;nl&#39;)">Nederlands</span></li>
+                <li class="lang-pt" data-bind="click: Language.bind($data, &#39;pt&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;pt&#39;)">Português</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-bind="if: showLoading()" class="loading"></div>
+
+<div data-bind="if: !showLoading(), style: { display : !showLoading() ? &#39;block&#39; : &#39;none&#39; }" style="display: block;">
+
+
+
+    <script id="Claims/Acknowledegment" type="text/html">
+    <div class="header">
+        <h1 data-bind="label: Main.Success"></h1>
+    </div>
+    <div class="main">
+        <div class="col-lg-12" data-bind="label: Main.SuccessTextEU261, if: ClaimType() === 'EU261'"></div>
+        <div class="col-lg-12" data-bind="label: Main.SuccessTextWelfare, if: ClaimType() === 'Welfare'"></div>
+    </div>
+
+</script>
+    <script id="Claims/BankAccount" type="text/html">
+    <div class="col-md-12 col-sm-12 col-xs-12 PaymentDetailsInfo" data-bind="if: IsEU261()">
+        <p data-bind="label: BankAccount.IfSuccessfulNoteEU261, visible: IsBankTransfer()"></p>
+        <p data-bind="label: BankAccount.IfSuccessfulNoteInternationalEU261, visible: NotBankTransfer() && !ForceCheque()"></p>
+    </div>
+    <div class="col-md-12 col-sm-12 col-xs-12 PaymentDetailsInfo" data-bind="if: IsWelfare()">
+        <p data-bind="label: BankAccount.IfSuccessfulNoteWelfare, visible: IsBankTransfer()"></p>
+        <p data-bind="label: BankAccount.IfSuccessfulNoteInternationalWelfare, visible: NotBankTransfer() && !ForceCheque()"></p>
+        <p data-bind="label: BankAccount.TravelAgentClaims, visible: ForceCheque()"></p>
+    </div>
+
+    <div class="row clearfix" data-bind="if: !ForceCheque()">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="BankAccount_BankAccountCountry" class="control-label">
+                <span data-bind="label: BankAccount.BankAccountCountry" class="emphasise"></span>
+                <i class="fa">&nbsp;</i>
+            </label>
+
+            <select data-bind="options: Countries, optionsLabel: Countries, optionsText: 'name', optionsValue: 'code', value: BankAccountCountry, validationKey: 'BankAccount.BankAccountCountry[0]'" class="form-control" name="BankAccount_BankAccountCountry" id="BankAccount_BankAccountCountry"></select>
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="visible: IsBankTransfer()">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="control-label">
+                <label for="BankAccount_BankAccountHolderName" data-bind="label: BankAccount.BankAccountHolderName" class="emphasise"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:BankAccount.Tooltips.BankAccountHolderName"></a>
+                <i class="fa">&nbsp;</i>
+            </div>
+            <input type="text" data-bind="value: BankAccountHolderName, validationKey: 'BankAccount.BankAccountHolderName[0]'" class="form-control" name="BankAccount_BankAccountHolderName" id="BankAccount_BankAccountHolderName" maxlength="35" />
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="visible: IsBankTransfer()">
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsBICVisible()">
+            <div class="control-label">
+                <label for="BankAccount_BIC" data-bind="label: BankAccount.BIC, visible: IsSwiftBIC() == false" class="emphasise"></label>
+                <label for="BankAccount_BIC" data-bind="label: BankAccount.SwiftBIC, visible: IsSwiftBIC()" class="emphasise"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:BankAccount.Tooltips.BIC/SWIFT"></a>
+            </div>
+            <input type="text" data-bind="value: BIC, validationKey: 'BankAccount.BIC[0]'" class="form-control" name="BankAccount_BIC" id="BankAccount_BIC" maxlength="11" data-mask="T" data-mask-regex-t="[a-zA-Z0-9]" data-mask-t-recursive="1" data-mask-uppercase="1" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsIBANVisible()">
+            <div class="control-label">
+                <label for="BankAccount_IBAN" data-bind="label: BankAccount.IBAN" class="emphasise"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:BankAccount.Tooltips.IBAN"></a>
+            </div>
+            <input type="text" data-bind="value: IBAN, validationKey: 'BankAccount.IBAN[0]'" class="form-control" name="BankAccount_IBAN" id="BankAccount_IBAN" maxlength="34" data-mask="T" data-mask-regex-t="[a-zA-Z0-9]" data-mask-t-recursive="1" data-mask-uppercase="1" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsSortCodeVisible()">
+            <div class="control-label">
+                <label for="BankAccount_SortCode" data-bind="label: BankAccount.SortCode" class="emphasise"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:BankAccount.Tooltips.SortCode"></a>
+            </div>
+
+            <input type="text" data-bind="value: SortCodeFormatted, validationKey: 'BankAccount.SortCode[0]'" class="form-control" name="BankAccount_SortCode" id="BankAccount_SortCode" data-mask="00-00-00" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsBankAccountNumberVisible()">
+            <div class="control-label">
+                <label for="BankAccount_BankAccountNumber" data-bind="label: BankAccount.BankAccountNumber" class="emphasise"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:BankAccount.Tooltips.BankAccountNumber"></a>
+            </div>
+            <input type="text" data-bind="value: BankAccountNumber, validationKey: 'BankAccount.BankAccountNumber[0]', attr: { maxlength : BankAccountNumberMaxLength }" class="form-control" name="BankAccount_BankAccountNumber" id="BankAccount_BankAccountNumber" data-mask="0#">
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="if: !ForceCheque()">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="BankAccount_OptionalCurrency" data-bind="label: BankAccount.CurrencyCode, visible: IsCurrencyOptional()" class="emphasise"></label>
+            <span data-bind="if: IsCurrencyOptional()">
+                <select data-bind="options: CurrencyCodes, value: CurrencyCode, optionsText: function(item) { return ko.meta.utils.getLabelFromArray('Currencies', ko.meta.language(), 'CurrencyCode', item, 'CurrencyDescription' )}, validationkey: 'BankAccount.CurrencyCode[0]' " id=" bankaccount_optionalcurrency" name="BankAccount_OptionalCurrency" class="form-control"></select>
+            </span>
+            <label for="BankAccount_CurrencyCode" data-bind="label: BankAccount.CurrencyCode, visible: CurrencyNotOptional()"></label>
+            <span class="notranslate" id="BankAccount_CurrencyCode" data-bind="text: CurrencyDescription(), visible: CurrencyNotOptional()"></span>
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="if: ForceCheque()">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="BankAccount_OptionalCurrency" data-bind="label: BankAccount.CurrencyCode" class="emphasise"></label>
+            <span>
+                <select data-bind="options: CurrencyCodes, value: CurrencyCode, labelPlaceholder: BankAccount.Placeholders.OptionalCurrency, validationKey: 'BankAccount.CurrencyCode[0]', optionsDisableDefault: false" id="BankAccount_OptionalCurrency" name="BankAccount_OptionalCurrency" class="form-control"></select>
+            </span>
+        </div>
+    </div>
+</script>
+    <script id="Claims/ClaimantDetails" type="text/html">
+
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <p data-bind="label: ClaimantDetails.DisclaimerEU261,visible: ShowLeadBooker()"></p>
+            <p data-bind="label: ClaimantDetails.DisclaimerWelfare, visible: !ShowLeadBooker()"></p>
+        </div>
+    </div>
+
+    <div class="row clearfix marginTop" data-bind="if: ShowTravelAgent()">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_IsTravelAgent" class="col-form-label">
+                <input type="checkbox" name="ClaimantDetails_IsTravelAgent" id="ClaimantDetails_IsTravelAgent" data-bind="checked: IsTravelAgent, checkbox: 1" class="checkbox checkbox-inline" />&nbsp;
+                <span data-bind="label: ClaimantDetails.IsTravelAgent"></span>
+            </label>
+        </div>
+        <div class="col-md-12 col-sm-12 col-xs-12" data-bind="visible: IsTravelAgent()">
+            <label for="ClaimantDetails_TravelAgent" data-bind="label: ClaimantDetails.TravelAgent"></label>
+            <input type="text" data-bind="value: TravelAgent, validationKey:'ClaimantDetails.TravelAgent[0]'" class="form-control" name="ClaimantDetails_TravelAgent" id="ClaimantDetails_TravelAgent" maxlength="20" />
+        </div>
+    </div>
+
+    <div class="row clearfix marginTop">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_FirstName" data-bind="label: ClaimantDetails.FirstName" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.ClaimantFirstNameWelfare,visible: !ShowLeadBooker()"></a>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.ClaimantFirstNameEU261,visible: ShowLeadBooker()"></a>
+            <input type="text" data-bind="textInput: FirstName, validationKey:'ClaimantDetails.FirstName[0]'" class="form-control" name="ClaimantDetails_FirstName" id="ClaimantDetails_FirstName" maxlength="100" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_LastName" data-bind="label: ClaimantDetails.LastName" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.ClaimantLastNameWelfare,visible: !ShowLeadBooker()"></a>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.ClaimantLastNameEU261,visible: ShowLeadBooker()"></a>
+            <input type="text" data-bind="textInput: LastName, validationKey:'ClaimantDetails.LastName[0]'" class="form-control" name="ClaimantDetails_LastName" id="ClaimantDetails_LastName" maxlength="100" />
+        </div>
+    </div>
+
+    <div data-bind="visible: NotEnteringAddressManually()" class="row clearfix marginTop">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_CountrySearch" data-bind="label: ClaimantDetails.CountryEU261,visible: ShowLeadBooker()" class="emphasise col-form-label"></label>
+            <label for="ClaimantDetails_CountrySearch" data-bind="label: ClaimantDetails.Country, visible: !ShowLeadBooker()" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.Country"></a>
+            <select data-bind="options: Countries, optionsLabel:Countries, value: Country, optionsText: 'name', optionsValue: 'code', labelPlaceholder: ClaimantDetails.Placeholders.Country, validationKey:'ClaimantDetails.Country[0]'" class="form-control" name="ClaimantDetails_CountrySearch" id="ClaimantDetails_CountrySearch"></select>
+        </div>
+
+
+    </div>
+
+    <div class="row clearfix marginTop" data-bind="visible: IsEnteringAddressManually(), if: IsEnteringAddressManually()" >
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_Address1" data-bind="label: ClaimantDetails.Address1" class="emphasise col-form-label"></label>
+            <input type="text" data-bind="value: Address1, validationKey:'ClaimantDetails.Address1[0]'" class="form-control" name="ClaimantDetails_Address1" id="ClaimantDetails_Address1" maxlength="80" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_Address2" data-bind="label: ClaimantDetails.Address2" class="col-form-label"></label>
+            <input type="text" data-bind="value: Address2, validationKey:'ClaimantDetails.Address2[0]'" class="form-control" name="ClaimantDetails_Address2" id="ClaimantDetails_Address2" maxlength="80" />
+        </div>
+
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_Town" data-bind="label: ClaimantDetails.Town" class="emphasise col-form-label"></label>
+            <input type="text" data-bind="value: Town, validationKey:'ClaimantDetails.Town[0]'" class="form-control" name="ClaimantDetails_Town" id="ClaimantDetails_Town" maxlength="80" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_County" data-bind="label: ClaimantDetails.County" class="emphasise col-form-label"></label>
+            <input type="text" data-bind="value: County, validationKey:'ClaimantDetails.County[0]'" class="form-control" name="ClaimantDetails_County" id="ClaimantDetails_County" maxlength="80" />
+        </div>
+
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_Country" data-bind="label: ClaimantDetails.Country" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.Country"></a>
+            <select data-bind="options: Countries, optionsLabel:Countries, value: Country, optionsText: 'name', optionsValue: 'code', labelPlaceholder: ClaimantDetails.Placeholders.Country, validationKey:'ClaimantDetails.Country[0]'" class="form-control" name="ClaimantDetails_Country" id="ClaimantDetails_Country"></select>
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_Postcode" data-bind="label: ClaimantDetails.Postcode" class="emphasise col-form-label"></label>
+            <input type="text" data-bind="value: Postcode, validationKey:'ClaimantDetails.Postcode[0]'" class="form-control" name="ClaimantDetails_Postcode" id="ClaimantDetails_Postcode" maxlength="20" />
+        </div>
+
+
+
+    </div>
+
+
+
+    <div class="row clearfix marginEmailPhone">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_EMail" data-bind="label: ClaimantDetails.EMail" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.EMail"></a>
+            <input type="text" data-bind="value: EMail, validationKey:'ClaimantDetails.EMail[0]'" class="form-control" name="ClaimantDetails_EMail" id="ClaimantDetails_EMail" maxlength="80" />
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_TelephoneRegion" data-bind="label: ClaimantDetails.TelephoneRegion" class="emphasise col-form-label"></label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:ClaimantDetails.Tooltips.PhoneNumber"></a>
+            <div id="ClaimantDetails_TelephoneCountryCode_ValidationText"></div>
+            <div id="ClaimantDetails_TelephoneRegion_ValidationText"></div>
+            <div class="input-group">
+                <span class="input-group-addon input-group-addon-left">
+                    <input type="text" data-bind="value: TelephoneCountryCode, validationKey: 'ClaimantDetails.TelephoneCountryCode[0]', validationElement: 'ClaimantDetails_TelephoneCountryCode_ValidationText'" class="form-control telephone-country" name="ClaimantDetails_TelephoneCountryCode" id="ClaimantDetails_TelephoneCountryCode" data-mask="+0000" maxlength="5" />
+                </span>
+                <input type="text" data-bind="value: TelephoneRegion, validationKey: 'ClaimantDetails.TelephoneRegion[0]', validationElement: 'ClaimantDetails_TelephoneRegion_ValidationText'" class="form-control" name="ClaimantDetails_TelephoneRegion" id="ClaimantDetails_TelephoneRegion" data-mask="T" data-mask-regex-t="[0-9]" data-mask-t-recursive="1" maxlength="14" />
+            </div>
+        </div>
+    </div>
+
+    <div data-bind="visible: ShowLeadBooker()">
+        <div class="row clearfix marginTop" data-bind="if: NotTravelAgent()">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <label for="ClaimantDetails_IsLeadBooker" data-bind="label: ClaimantDetails.IsLeadBooker" class="emphasise col-form-label"></label>
+                <select data-bind="options: YesNo, optionsLabel: YesNo, value: IsLeadBookerYesNo, optionsText: 'text', optionsValue: 'value', labelPlaceholder: ClaimantDetails.Placeholders.IsLeadBooker, validationKey:'ClaimantDetails.IsLeadBookerYesNo[0]', optionsDisableDefault: true" class="form-control" name="ClaimantDetails_IsLeadBooker" id="ClaimantDetails_IsLeadBooker"></select>
+            </div>
+        </div>
+    </div>
+</script>
+    <script id="Claims/Confirmation" type="text/html">
+    <input type="hidden" name="Confirmation_CaptchaPublicKey" id="Confirmation_CaptchaPublicKey" data-bind="value: CaptchaPublicKey" />
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <p data-bind="label: Confirmation.ConfirmationIntroText, visible: ClaimType() === 'Welfare'"></p>
+            <p data-bind="label: Confirmation.ConfirmationIntroTextEu261, visible: ClaimType() === 'EU261'"></p>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12" data-bind="if: CaptchaDisabled() == false">
+            <div id="Confirmation_Captcha" class="g-recaptcha"></div>
+            <div data-bind="validationKey:'Confirmation.Captcha[0]', validationValue: Captcha, scripts: ['https://www.google.com/recaptcha/api.js?hl=' + ko.meta.language() + '&render=explicit&onload=recaptchaOnLoad']"></div>
+            <input type="hidden" name="Confirmation_CaptchaRequest" id="Confirmation_CaptchaRequest" data-bind="value: CaptchaRequest" />
+        </div>
+        <div class="confirmation-leftmargin col-md-12 col-sm-12 checkbox-inline">
+            <label for="Confirmation_AcceptedTerms">
+                <input type="checkbox" name="Confirmation_AcceptedTerms" id="Confirmation_AcceptedTerms" data-bind="checked: AcceptedTerms, checkbox: 1" />
+                <span class="confirmation-acceptedTerms" data-bind="label: Confirmation.AcceptedTerms"></span>
+            </label>
+
+            <label data-bind="validationKey: 'Confirmation.AcceptedTerms[0]', validationValue: AcceptedTerms"></label>
+        </div>
+
+        <div class="col-md-12 col-sm-12 confirmation-acceptedUnusedTerms">
+            <label for="Confirmation_UnusedTicketRefund">
+                <input type="checkbox" name="Confirmation_UnusedTicketRefund" id="Confirmation_UnusedTicketRefund" data-bind="checked: AcceptedUnusedTicketRefundTerms, checkbox: 1" />
+                <span class="confirmation-acceptedTerms" data-bind="label: Confirmation.AcceptedUnusedTicketRefundTerms"></span>
+            </label>
+
+            <label data-bind="validationKey: 'Confirmation.AcceptedUnusedTicketRefundTerms[0]', validationValue: AcceptedUnusedTicketRefundTerms"></label>
+        </div>
+    </div>
+</script>
+<script src="./Compensation Claim Form_files/recaptcha.min.js"></script>
+    <script id="Claims/ConfirmationSummary" type="text/html">
+    <div class="header">
+        <h1 data-bind="label: Main.IntroductionEU261, if: ClaimType() === 'EU261'"></h1>
+        <h1 data-bind="label: Main.IntroductionWelfare, if: ClaimType() === 'Welfare'"></h1>
+    </div>
+    <div class="main">
+        <div class="col-sm-12 col-md-12">
+            <span data-bind="label: ConfirmationModal.TitleEU261, visible: ClaimType() === 'EU261'"></span>
+            <span data-bind="label: ConfirmationModal.TitleWelfare, visible: ClaimType() === 'Welfare'"></span>
+        </div>
+
+        <div class="col-sm-12 col-md-12">
+            <div class="modal-body confirmation-modal-body">
+                <div class="confirmtionSummary">
+                    <div>
+                        <label for="ConfirmationModal_BookingRef_Value" data-bind="label: FlightDetails.BookingReference" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_BookingRef_Value" data-bind="text: FlightDetails().BookingReference" class=""></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_FlightNumber_Value" data-bind="label: FlightDetails.FlightNumber" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_FlightNumber_Value" data-bind="text: FlightDetails().FlightNumber" class=""></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_FlightDate_Value" data-bind="label: FlightDetails.DateOfDisruptedFlight" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_FlightDate_Value" data-bind="text:FlightDetails().DateOfFlight"></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_FlightRoute_Value" data-bind="label: FlightDetails.FlightRoute" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_FlightRoute_Value" data-bind="text: FlightDetails().FlightRoute"></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_ReasonForClaim_Value" data-bind="label: FlightDetails.ReasonForClaim" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_ReasonForClaim_Value" data-bind="text: FlightDetails().ReasonsForClaimDesc" class=""></span>
+                    </div> <hr />
+                    <div>
+                        <label for="ConfirmationModal_Name_Value" data-bind="label: ConfirmationModal.Name" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_Name_Value" data-bind="text: ClaimantDetails().FullName" class=""></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_Email_Value" data-bind="label: ConfirmationModal.Email" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_Email_Value" data-bind="text: ClaimantDetails().EMail" class=""></span>
+                    </div>
+                    <div>
+                        <label for="ConfirmationModal_PhoneNumber_Value" data-bind="label: ConfirmationModal.PhoneNumber" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_PhoneNumberCountryCode_Value" data-bind="text: ClaimantDetails().TelephoneCountryCode"></span>&nbsp;
+                        <span id="ConfirmationModal_PhoneNumber_Value" data-bind="text: ClaimantDetails().TelephoneRegion"></span>
+                    </div>
+                    <div data-bind="visible: ClaimantDetails().IsTravelAgent()">
+                        <label data-bind="label: ConfirmationModal.TravelAgent" class="control-label"></label>
+                    </div> <hr />
+                </div>
+                <div class="confirmtionSummary" data-bind="visible: BankAccount().IsBankTransfer()">
+                    <div>
+                        <label for="ConfirmationModal_BankAccount_HolderName_Value" data-bind="label: ConfirmationModal.BankAccountHolder" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_BankAccount_HolderName_Value" data-bind="text: BankAccount().BankAccountHolderName" class=""></span>
+                    </div>
+                    <div class="" data-bind="visible: BankAccount().IsBICVisible()">
+                        <label for="ConfirmationModal_BankAccount_BIC_Value" data-bind="label: BankAccount.BIC, visible: BankAccount().IsSwiftBIC() == false" class="control-label"></label>
+                        <label for="ConfirmationModal_BankAccount_BIC_Value" data-bind="label: BankAccount.SwiftBIC, visible: BankAccount().IsSwiftBIC()" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_BankAccount_BIC_Value" data-bind="text: BankAccount().BIC" class=""></span>
+                    </div>
+                    <div class="" data-bind="visible: BankAccount().IsSortCodeVisible()">
+                        <label for="ConfirmationModal_BankAccount_SortCode_Value" data-bind="label: BankAccount.SortCode" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_BankAccount_SortCode_Value" data-bind="text: BankAccount().SortCode" class=""></span>
+                    </div>
+
+                    <div class="" data-bind="visible: BankAccount().IsIBANVisible()">
+                        <label for="ConfirmationModal_IAN_Number_Value" data-bind="label: BankAccount.IBAN" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_IAN_Number_Value" data-bind="text: BankAccount().IBAN" class=""></span>
+                    </div>
+                    <div class="" data-bind="visible: BankAccount().IsBankAccountNumberVisible()">
+                        <label for="ConfirmationModal_BankAccount_Number_Value" data-bind="label: BankAccount.BankAccountNumber" class="control-label"></label>&nbsp;
+                        <span id="ConfirmationModal_BankAccount_Number_Value" data-bind="text: BankAccount().BankAccountNumber" class=""></span>
+                    </div><hr />
+                </div>
+                <div class="confirmtionSummary" data-bind="visible: BankAccount().NotBankTransfer() && !BankAccount().ForceCheque()">
+                    <div data-bind="if: BankAccount().IsWelfare()">
+                        <span data-bind="label: ConfirmationModal.WelfareManualPaymentText"></span>
+                    </div>
+                    <div data-bind="if: BankAccount().IsEU261()">
+                        <span data-bind="label: ConfirmationModal.EU261ManualPaymentText"></span>
+                    </div><hr />
+                </div>
+
+            </div>
+            <div>
+                <label for="ConfirmationModal_Passengers" class="control-label">
+                    <span data-bind="label: Main.Headings.Passengers"></span>:
+                </label>
+
+                <table class="table table-striped" id="ConfirmationModal_Passengers">
+                    <tbody data-bind="foreach: Passengers().Passengers()">
+                    <tr>
+                        <td><span data-bind="text: $index() + 1"></span></td>
+                        <td>
+                            <div>
+                                <span data-bind="text: FirstName"></span>&nbsp;<span data-bind="text: LastName"></span>
+                            </div>
+                            <div>
+                                <input type="hidden" name="Passenger_FirstName" data-bind="value: FirstName, validationKey: 'Passenger.FirstName[' + $index() + ']'" />
+                                <input type="hidden" name="Passenger_LastName" data-bind="value: LastName, validationKey: 'Passenger.LastName[' + $index() + ']'" />
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div data-bind="visible: WelfareDocuments().HasExpenses()">
+                <label for="ConfirmationModal_Expenses" class="control-label">
+                    <span data-bind="label: Main.Headings.WelfareDocuments"></span>:
+                </label>
+                <div class="table-responsive">
+                    <table class="table table-striped" id="ConfirmationModal_Expenses">
+                        <thead>
+                            <tr>
+                                <th data-bind="label: WelfareDocuments.ItemNumberHeading"></th>
+                                <th data-bind="label: WelfareDocuments.ExpenseTypeHeading"></th>
+                                <th data-bind="label: WelfareDocuments.CurrencyCodeHeading"></th>
+                                <th data-bind="label: WelfareDocuments.AmountHeading"></th>
+                                <th data-bind="label: WelfareDocuments.ReceiptHeading"></th>
+                            </tr>
+                        </thead>
+                        <tbody data-bind="foreach: WelfareDocuments().Expenses">
+                            <tr>
+                                <td><span data-bind="text: $index() + 1"></span></td>
+                                <td><span data-bind="text: ExpenseTypeDescription"></span></td>
+                                <td><span data-bind="text: CurrencyCode"></span></td>
+                                <td>
+                                    <div>
+                                        <span data-bind="text: Amount"></span>
+                                    </div>
+                                    <input type="hidden" data-bind="value: Amount, validationKey:'WelfareDocuments.Amount[' + $index() + ']'" />
+                                </td>
+                                <td><span data-bind="text: OriginalFileName"></span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div><br/>
+            <div class="modal-footer">
+                <input type="button" name="Main.UpdateClaim" class="btn btn-default confirmation-topMargin " data-bind="event: {click: HideConfirmation }, label: Main.UpdateClaim" />
+                <input type="button" name="Submit" data-bind="event: { click: Save }, label: Main.Submit, visible: NotSubmitting()" class="btn btn-success confirmation-topMargin" />
+                <input type="button" name="Submitting" data-bind="event: { click: Save }, label: Main.Submitting, visible: Submitting()" class="btn btn-success confirmation-topMargin" disabled="disabled" />
+
+            </div>
+        </div>
+    </div>
+</script>
+<script src="./Compensation Claim Form_files/moment.min.js"></script>
+    <script id="Claims/FlightDetails" type="text/html">
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12 col-xs-12 row">
+
+            <div class="col-md-6 col-sm-12">
+                <div class="control-label">
+                    <label for="FlightDetails_BookingReference" data-bind="label: FlightDetails.BookingReference" class="emphasise"></label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.BookingReference"></a>
+                </div>
+                <input type="text" data-bind="value: BookingReference, validationKey: 'FlightDetails.BookingReference[0]'" class="form-control" name="FlightDetails_BookingReference" id="FlightDetails_BookingReference" data-mask-uppercase="data-mask-uppercase" maxlength="7" />
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+                <div class="control-label">
+                    <label for="FlightDetails_FlightNumber" data-bind="label: FlightDetails.FlightNumber" class="emphasise"></label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.FlightNumber"></a>
+                </div>
+                <input type="text" data-bind="value: FullFlightNumber, validationKey: 'FlightDetails.FlightNumber[0]', labelPlaceholder : FlightDetails.Placeholders.FlightNumber" class="form-control" name="FlightDetails_FlightNumber" id="FlightDetails_FlightNumber" maxlength="4" data-mask="#" />
+            </div>
+        </div>
+
+        <div class="col-md-12 row col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 datepicker">
+                <label for="FlightDetails_DateOfDisruptedFlight" data-bind="label: FlightDetails.DateOfDisruptedFlight" class="emphasise control-label"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.DateOfDisruptedFlightWelfare,visible: IsWelfare()"></a>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.DateOfDisruptedFlightEU261,visible: IsEU261()"></a>
+                <div id="FlightDetails_DateOfDisruptedFlight_ValidationText"></div>
+                <div class="input-group date" data-provide="datepicker" data-date-format="dd/mm/yyyy" data-bind="attr:{'data-date-language': ko.meta.language()}">
+                    <input type="text" readonly="readonly" class="form-control bg-white"
+                           data-bind="date: DateOfDisruptedFlight, validationKey: 'FlightDetails.DateOfDisruptedFlight[0]', validationValue: DateOfDisruptedFlight, validationElement: $('#FlightDetails_DateOfDisruptedFlight_ValidationText')[0]"
+                           name="FlightDetails_DateOfDisruptedFlight"
+                           id="FlightDetails_DateOfDisruptedFlight" />
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-date"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label for="FlightDetails_ReasonForClaim" data-bind="label: FlightDetails.ReasonForClaim" class="emphasise control-label"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.ReasonForClaim"></a>
+                <select data-bind="options:ReasonsForClaim, optionsLabel:ReasonsForClaim, value: ReasonForClaim, optionsText: 'Description', optionsValue: 'Id', labelPlaceholder: FlightDetails.Placeholders.ReasonForClaim, optionsDisableDefault: true, validationKey:'FlightDetails.ReasonForClaim[0]'" class="form-control" name="FlightDetails_ReasonForClaim" id="FlightDetails_ReasonForClaim"></select>
+            </div>
+        </div>
+        <div class="col-md-12 row col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12">
+                <div class="control-label">
+                    <label for="FlightDetails_DepartureAirport" data-bind="label: FlightDetails.DepartureAirport" class="emphasise"></label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.DepartureAirport"></a>
+                </div>
+                <select data-bind="value: DepartureAirport, options:Airports, optionsText: 'Name', optionsValue: 'Code', labelPlaceholder: FlightDetails.Placeholders.DepartureAirport, optionsDisableDefault: true, validationKey:'FlightDetails.DepartureAirport[0]'" class="form-control" name="FlightDetails_DepartureAirport" id="FlightDetails_DepartureAirport"></select>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+
+                <div class="control-label">
+                    <label for="FlightDetails_ArrivalAirport" data-bind="label: FlightDetails.ArrivalAirport" class="emphasise"></label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:FlightDetails.Tooltips.ArrivalAirport"></a>
+                </div>
+                <select data-bind="value: ArrivalAirport, options:Airports, optionsText: 'Name', optionsValue: 'Code', labelPlaceholder: FlightDetails.Placeholders.ArrivalAirport, optionsDisableDefault: true, validationKey:'FlightDetails.ArrivalAirport[0]'" class="form-control" name="FlightDetails_ArrivalAirport" id="FlightDetails_ArrivalAirport"></select>
+            </div>
+        </div>
+    </div>
+</script>
+    <script id="Claims/Passengers" type="text/html">
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12">
+            <p data-bind="visible: IsEU261(), label: Passengers.AddPassengerNoteEU261"></p>
+            <p data-bind="visible: IsWelfare(), label: Passengers.AddPassengerNoteWelfare"></p>
+        </div>
+    </div>
+    <div data-bind="foreach: Passengers">
+        <div class="row clearfix passenger-modal marginTop">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <label>
+                    <b data-bind="label: Passengers.PassengerNumber"></b>&nbsp;<b data-bind="text: ($index() + 1)"></b>&nbsp;
+                </label><br />
+                <button class="btn btn-link next btn-text" data-bind="click: function() { this.CopyClaimantToPassengerList.bind(this)($data) }.bind($parentContext.$parent), label: Main.CopyFromClaimantDetails"></button>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right" data-bind="if: $parent.CanRemovePassengers()">
+                <button class="btn btn-link btn-text" data-bind="click: function() { $parent.RemovePassenger($data); return false; }">
+                    <span data-bind="label: Passengers.RemovePassenger" class="btn-link"></span>
+                    <i class="fa fa-trash-o pull-right" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+        <div class="row clearfix" role="group">
+            <div class="col-md-6 col-sm-12">
+                <label for="Passengers_TempPassenger_FirstName" data-bind="label: Passengers.FirstName" class="emphasise control-label"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:Passengers.Tooltips.FirstName"></a>
+                <input type="text" class="form-control" name="Passengers_TempPassenger_FirstName" id="Passengers_TempPassenger_FirstName" data-bind="value: FirstName, validationKey: 'Passenger.FirstName[' + $index() + ']'" maxlength="100" />
+            </div>
+
+            <div class="col-md-6 col-sm-12 clearfix">
+                <label for="Passengers_TempPassenger_LastName" data-bind="label: Passengers.LastName" class="emphasise control-label"></label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:Passengers.Tooltips.LastName"></a>
+                <input type="text" class="form-control" name="Passengers_TempPassenger_LastName" id="Passengers_TempPassenger_LastName" data-bind="value: LastName, validationKey: 'Passenger.LastName[' + $index() + ']', " maxlength="100" />
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <button type="button" name="Passengers_AddPassenger" id="Passengers_AddPassenger"
+                    class="btn btn-link add-something btn-large hideElement"
+                    data-bind="event: { click: function() { $data.AddPassenger(); $.scrollTo('.passenger-modal:last'); } }, label: Passengers.AddPassenger, visible: !MaxNumberOfPassengersReached()"></button>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div data-bind="validationKey: 'Passenger.Passengers[0]', validationValue: Passengers"></div>
+    </div>
+</script>
+    <script id="Claims/WelfareDocuments" type="text/html">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <p data-bind="label: WelfareDocuments.Text"></p>
+        </div>
+    </div>
+
+    <div class="row" data-bind="if: HasExpenses()">
+        <div class="col-md-12 col-sm-12" data-bind="template: { name: 'ExpenseList', data: { ViewModel : $data, ReadOnly: false } }"></div>
+    </div>
+
+    <div id="WelfareDocumentsModal" data-bind="if: Editing()">
+        <div>
+            <div class="row clearfix">
+                <div class="col-md-6 col-sm-12">
+                    <div class="control-label">
+                        <label for="WelfareDocuments_TempExpense_ExpenseType" data-bind="label: WelfareDocuments.ExpenseType" class="emphasise"></label>
+                        <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-html="true" data-bind="labelAttr: 'title', label:WelfareDocuments.Tooltips.ExpenseType"></a>
+                    </div>
+
+                    <select class="form-control" name="WelfareDocuments_TempExpense_ExpenseType"
+                            id="WelfareDocuments_TempExpense_ExpenseType"
+                            data-bind="value: TempExpense().ExpenseType,event:{ change: expenseOptionChanged},
+                            options: ExpenseTypes, optionsText: 'Description', optionsValue: 'Id', optionsLabel: ExpenseTypes,
+                            labelPlaceholder: WelfareDocuments.Placeholders.ExpenseType, optionsDisableDefault: true"></select>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="control-label">
+                        <label for="WelfareDocuments_TempExpense_CurrencyCode" data-bind="label: WelfareDocuments.CurrencyCode" class="emphasise"></label>
+                        <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:WelfareDocuments.Tooltips.CurrencyCode"></a>
+                    </div>
+
+                    <select class="form-control" name="WelfareDocuments_TempExpense_CurrencyCode" id="WelfareDocuments_TempExpense_CurrencyCode" data-bind="value: TempExpense().CurrencyCode, options: CurrencyCodes, optionsText: 'CurrencyDescription', optionsValue: 'CurrencyCode', optionsLabel: Currencies"></select>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="control-label">
+                        <label data-bind="label: WelfareDocuments.Amount" for="WelfareDocuments_TempExpense_Amount" class="emphasise"></label>
+                        <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-html="true" data-bind="labelAttr: 'title', label:WelfareDocuments.Tooltips.Amount"></a>
+                        <i class="fa">&nbsp;</i>
+                    </div>
+                    <input type="text" data-bind="textInput: TempExpense().Amount" class="form-control" name="WelfareDocuments_TempExpense_Amount" id="WelfareDocuments_TempExpense_Amount" data-mask-money="data-mask-money" />
+
+                </div>
+                <div class="col-md-12 col-sm-12">
+
+                    <div class="control-label">
+                        <label data-bind="label: WelfareDocuments.UploadReceipt" class="emphasise" for="WelfareDocuments_TempExpense_UploadReceipt"></label>
+                        <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: 'title', label:WelfareDocuments.Tooltips.UploadReceipt"></a>
+                    </div>
+
+                    <!--[if lt IE 10]><form action="/api/FileUpload" method="post" enctype="multipart/form-data" target="ie9Frame">
+                        <iframe name="ie9Frame" id="ie9Frame" onload="(function() { var jsonStr = document.getElementById('ie9Frame').contentDocument.body.innerText; if(jsonStr.replace(' ','').length < 1) { return; } var json = $.parseJSON(jsonStr); ko.dataFor(document.body).WelfareDocuments().OnFileUploaded(null, { response : json }); })()" style="display: none"></iframe>
+                    <![endif]-->
+                    <input type="file" class="file" data-preview-file-type="text"
+                           data-bind="bootstrapfileuploader: {
+                           uploadUrl: UploadUrl,
+                           maxFileCount: 1,
+                           overwriteInitial: true,
+                           autoReplace: true,
+                           overwriteInitial: true,
+                           showUploadedThumbs: false,
+                           showPreview: true,
+                           filepreupload: OnFilePreUpload,
+                           fileuploaded: OnFileUploaded,
+                           filecleared: OnFileRemoved,
+                           maxFileSize: 5243,
+                           allowedFileExtensions: AllowedFileExtensions,
+                           customLayoutTags: {
+                           '{btnBrowseLabel}': ko.meta.utils.getLabel('WelfareDocuments.BrowseFiles', ko.meta.language())
+                           },
+                           msgCancelled: ko.meta.utils.getLabel('Validation.WelfareDocuments.CancelledUpload', ko.meta.language()),
+                           layoutTemplates: {
+                           btnBrowse: '<div class=\'{css} btn btn-success\' {status}>{icon} {btnBrowseLabel}</div>'
+                }
+                }, errorSwitch: SelectedFileIsInvalid, errorSwitchServer: SelectedFileIsInvalidServerSide" id="WelfareDocuments_TempExpense_UploadReceipt" name="WelfareDocuments_TempExpense_UploadReceipt" />
+                    <!--[if lt IE 10]></form><![endif]-->
+                    <div class="validation-summary-errors">
+                        <span data-bind="visible: SelectedFileIsInvalidFileExtensionDots(), label: Validation.WelfareDocuments.FileExtensionDots"></span>
+                        <span data-bind="visible: SelectedFileIsInvalid(), label: Validation.WelfareDocuments.FileUploadError"></span>
+                        <span data-bind="visible: SelectedFileIsInvalidServerSide(), label: Validation.WelfareDocuments.FileUploadErrorServerSide"></span>
+                    </div>
+                    <!--[if lt IE 10]><span class="success-message" data-bind="visible: FileUploadSuccess(), label: Validation.WelfareDocuments.FileUploadSuccessMessage"></span><![endif]-->
+                    <p data-bind="label: WelfareDocuments.UploadNote"></p>
+                </div>
+                <div class="col-md-12 col-sm-12 clearfix">
+                    <div class="btn-group pull-right" role="group">
+                        <button data-bind="label: WelfareDocuments.CancelSaveExpense, click: CancelSaveExpense, visible: Expenses().length > 0" class="btn btn-link btn-large" name="WelfareDocuments.CancelSaveExpense"></button>
+                        <button type="button" name="AddExpensesModal.Save"
+                                class="btn btn-success btn-large btnAddExpense" data-dismiss="modal" data-bind="click: AddExpense, label: WelfareDocuments.Add, enable: CanAddTempExpense()"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-md-12" data-bind="visible: Editing() == false">
+            <button type="button" name="WelfareDocuments.AddExpenses"
+                    class="btn btn-link add-something btn-large"
+                    data-bind="event: { click: function() { CreateTempExpense(); $.scrollTo('#WelfareDocumentsModal') } }, label: WelfareDocuments.AddExpenses, visible: !MaxNumberOfExpensesReached()"
+                    data-target="#AddExpensesModal" data-toggle="modal"></button>
+        </div>
+        <div class="col-lg-12">
+            <div data-bind="validationKey: 'WelfareDocuments.Expenses[0]', validationValue: Expenses"></div>
+        </div>
+    </div>
+    <div style="width: 90%;" id="confirmDisplay" role="dialog" data-backdrop="static" aria-hidden="true" class="modal fade" aria-labelledby="welfareModalTitle" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        <label data-bind="label: WelfareDocuments.PopupPlaceholders.Title"></label>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" id="ClosePopupViewWindow">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="popupViewTable" rel="new" style="width:100%">
+                        <ul>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.HotelName"></label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.GuestName"></label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.NumberOfRooms"></label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.NumberOfNights"></label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CheckInCheckOutDates"></label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.RoomPrice"></label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportDate"></label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportPrice"></label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportRoute"></label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CustomerFullName"></label>
+                            </li>
+                            <li data-bind="visible: IsTelephoneOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CalledNumber"></label>
+                            </li>
+                            <li data-bind="visible: IsTelephoneOptionsVisible()">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CallDate"></label>
+                            </li>
+                        <li data-bind="visible: IsTelephoneOptionsVisible()">
+                            <label data-bind="label: WelfareDocuments.PopupPlaceholders.CallPrice"></label>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</script>
+<script id="ExpenseList" type="text/html">
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th data-bind="label: WelfareDocuments.ItemNumberHeading"></th>
+                            <th data-bind="label: WelfareDocuments.ExpenseTypeHeading"></th>
+                            <th data-bind="label: WelfareDocuments.CurrencyCodeHeading"></th>
+                            <th data-bind="label: WelfareDocuments.AmountHeading"></th>
+                            <th data-bind="label: WelfareDocuments.ReceiptHeading"></th>
+                            <th data-bind="label: WelfareDocuments.ActionsHeading"></th>
+                        </tr>
+                    </thead>
+                    <tbody data-bind="foreach: ViewModel.Expenses">
+                        <tr>
+                            <td><span data-bind="text: $index() + 1"></span></td>
+                            <td><span data-bind="text: ExpenseTypeDescription"></span></td>
+                            <td><span data-bind="text: CurrencyCode"></span></td>
+                            <td>
+                                <div>
+                                    <span data-bind="text: Amount"></span>
+                                </div>
+                                <input type="hidden" data-bind="value: Amount, validationKey:'WelfareDocuments.Amount[' + $index() + ']'" />
+                            </td>
+                            <td><span data-bind="text: OriginalFileName"></span></td>
+                            <td>
+                                <i class="icon-remove-sign"></i>
+                                <a class="btn-link" data-bind="if: ($parent.ReadOnly == false), event : { click : function() { $parent.ViewModel.RemoveExpense($data); } }" id="WelfareDocuments.RemoveExpense"><i class="fa fa-times-circle"></i></a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</script>
+
+    <div data-bind="visible: showEntryForm(), style: { display: showEntryForm() ? &#39;block&#39; : &#39;none&#39; }" style="display: block;">
+        <div class="header">
+            <h1 data-bind="label: Main.IntroductionEU261, if: ClaimType() === &#39;EU261&#39;"></h1>
+            <h1 data-bind="label: Main.IntroductionWelfare, if: ClaimType() === &#39;Welfare&#39;">I dettagli del tuo volo cancellato: EJU3851</h1>
+        </div>
+        <!--[if lt IE 10]>
+            <div class="unsupportedBrowser-header">
+                <h1 data-bind="label: Main.UnsupportedBrowserText"></h1>
+            </div>
+        <![endif]-->
+        <div class="main">
+            <div class="clearfix">
+                <div class="col-lg-12">
+                    <p data-bind="label: Main.IntroductionTextEU261, if: ClaimType() === &#39;EU261&#39;"></p>
+                    <p data-bind="label: Main.IntroductionTextWelfare, if: ClaimType() === &#39;Welfare&#39;"><p>
+                  Notifica di Cancellazione del Volo: Siamo spiacenti di informarvi che il volo da Milano Malpensa (MXP) a Amsterdam (AMS), originariamente previsto per venerdì 5 luglio alle 06:30 dal Terminal 2, è stato cancellato.
+                </p><p> <a href="http://www.easyjet.com/it/aiuto/in-aeroporto/ritardo-e-cancellazioni" target="blank"></a></p>Partenza e Arrivo Impattati: I passeggeri che dovevano partire da Milano Malpensa (MXP) alle 06:30 e arrivare ad Amsterdam (AMS) alle 08:25 di venerdì 5 luglio saranno interessati da questa cancellazione.</p>
+                </div>
+                <div class="col-lg-12" style="display:block;">
+                    <p data-bind="label: Main.DenotesMandatoryField"><p>Il volo da Milano Malpensa (MXP) a Amsterdam (AMS) previsto per il 5 luglio alle 06:30 è stato cancellato a causa di problemi operativi imprevisti. La cancellazione è dovuta a una serie di problemi tecnici rilevati durante i controlli pre-volo. La sicurezza dei nostri passeggeri e dell'equipaggio è la nostra priorità assoluta, e non potendo garantire il corretto funzionamento dell'aeromobile, abbiamo deciso di procedere con la cancellazione del volo. Inoltre, condizioni meteorologiche avverse lungo la rotta prevista hanno ulteriormente complicato la situazione, rendendo impraticabile l'operazione in sicurezza.</p></p><p>Tutti i passeggeri prenotati sul volo da Milano Malpensa (MXP) a Amsterdam (AMS), con partenza prevista alle 06:30 di venerdì 5 luglio, riceveranno notifiche riguardanti la cancellazione e ulteriori istruzioni su come procedere. Stiamo lavorando diligentemente per fornire soluzioni alternative, incluso il rebooking su voli successivi o su voli di compagnie partner. Inoltre, in conformità con le normative dell'Unione Europea, i passeggeri avranno diritto a un rimborso completo del biglietto o a un risarcimento, dove applicabile.</p></p></div>
+            </div>
+
+            <div>
+                <form role="form">
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8L7vspaESYFLq_po0XKpKZ0PHunySc0mw6kDImOTDfYSeV0QeKmHe9QCjTsyo03GyaenAZEu1xx8wnqf_6_s_XYQyW0sMbfw1YeipAmH131fTBdmBpFZlai1Lf3qre7EIBhU1Lv3wPpZL9hGGkgY_so">
+                    <fieldset class="form-group">
+                        <legend><span data-bind="text: Navigation().GetIndex(&#39;FlightDetails&#39;) + 1">1</span>.&nbsp;<span data-bind="label: Main.Headings.FlightDetails">Dettagli del volo posticipato/cancellato o imbarco negato</span></legend>
+                        <div class="col-lg-12">
+                            <p data-bind="label: Main.FlightIntroductionTextEU261,  if: ClaimType() === &#39;EU261&#39;"></p>
+                            <p data-bind="label: Main.FlightIntroductionTextWelfare,  if: ClaimType() === &#39;Welfare&#39;"><p>Questo modulo ti aiuterà a fornire tutte le informazioni necessarie per elaborare la tua richiesta di rimborso spese in modo rapido. <p>Poiché il tuo volo è già passato ed è stato cancellato, in conformità con le normative dell'Unione Europea, sarai reindirizzato automaticamente a questa pagina di rimborso. Apprezziamo la tua comprensione e pazienza in questa situazione e desideriamo rassicurarti che stiamo facendo tutto il possibile per facilitare il processo di rimborso. Grazie per aver scelto di viaggiare con noi e ci scusiamo sinceramente per qualsiasi inconveniente causato.</p>
+                        </p><p>Tutti i dettagli inviati devono corrispondere ai dettagli indicati dalla prenotazione qui sotto.</p></p>
+                        </div>
+                        <div class="col-lg-12" data-bind="template: { name: &#39;Claims/FlightDetails&#39;, data: FlightDetails()}">
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12 col-xs-12 row">
+
+            <div class="col-md-6 col-sm-12">
+                <div class="control-label">
+                    <label for="FlightDetails_BookingReference" data-bind="label: FlightDetails.BookingReference" class="emphasise">Numero di riferimento prenotazione: EJU3851</label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.BookingReference" title="Il riferimento della prenotazione inizia con una E, K, L, R, V o X e può essere trovato sulla carta d&#39;imbarco, ad esempio EX4MPL3"></a>
+                </div>
+                <div class="validationErrorText"></div><input type="text" data-bind="value: BookingReference, validationKey: &#39;FlightDetails.BookingReference[0]&#39;" class="form-control" name="FlightDetails_BookingReference" id="FlightDetails_BookingReference" data-mask-uppercase="data-mask-uppercase" maxlength="7">
+            </div>
+
+
+        </div>
+
+        <div class="col-md-12 row col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12 datepicker">
+                <label for="FlightDetails_DateOfDisruptedFlight" data-bind="label: FlightDetails.DateOfDisruptedFlight" class="emphasise control-label">Data del volo: 5 Luglio 2024</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.DateOfDisruptedFlightWelfare,visible: IsWelfare()" title="La data del volo deve coincidere con la data originale sulla carta di imbarco."></a>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.DateOfDisruptedFlightEU261,visible: IsEU261()" title="La data del volo deve coincidere con la data originale sulla carta di imbarco. Se il tuo volo è stato cancellato più di 14 giorni prima della data del volo, non hai diritto al risarcimento." style="display: none;"></a>
+                <div id="FlightDetails_DateOfDisruptedFlight_ValidationText" class="validationErrorText"></div>
+                <div class="input-group date" data-provide="datepicker" data-date-format="dd/mm/yyyy" data-bind="attr:{&#39;data-date-language&#39;: ko.meta.language()}" data-date-language="it">
+                    <input type="text" readonly="readonly" class="form-control bg-white" data-bind="date: DateOfDisruptedFlight, validationKey: &#39;FlightDetails.DateOfDisruptedFlight[0]&#39;, validationValue: DateOfDisruptedFlight, validationElement: $(&#39;#FlightDetails_DateOfDisruptedFlight_ValidationText&#39;)[0]" name="FlightDetails_DateOfDisruptedFlight" id="FlightDetails_DateOfDisruptedFlight">
+                    <div class="input-group-addon">
+                        <span class="glyphicon glyphicon-date"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+                <label for="FlightDetails_ReasonForClaim" data-bind="label: FlightDetails.ReasonForClaim" class="emphasise control-label">Motivo della richiesta di risarcimento:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.ReasonForClaim" title="Il motivo del reclamo dovrebbe essere lo stesso del motivo del disagio. Se tuo il volo è stato deviato, seleziona “in ritardo”."></a>
+                <div class="validationErrorText"></div><select data-bind="options:ReasonsForClaim, optionsLabel:ReasonsForClaim, value: ReasonForClaim, optionsText: &#39;Description&#39;, optionsValue: &#39;Id&#39;, labelPlaceholder: FlightDetails.Placeholders.ReasonForClaim, optionsDisableDefault: true, validationKey:&#39;FlightDetails.ReasonForClaim[0]&#39;" class="form-control" name="FlightDetails_ReasonForClaim" id="FlightDetails_ReasonForClaim" placeholder="Selezionare un motivo per la richiesta di risarcimento"><option value="" selected="" disabled="disabled">Selezionare un motivo per la richiesta di risarcimento</option><option value="1">Volo in ritardo</option><option value="2">Volo cancellato</option><option value="3">Mancato imbarco</option><option value="12">Sbarcato volontariamente</option></select>
+            </div>
+        </div>
+        <div class="col-md-12 row col-sm-12 col-xs-12">
+            <div class="col-md-6 col-sm-12">
+                <div class="control-label">
+                    <label for="FlightDetails_DepartureAirport" data-bind="label: FlightDetails.DepartureAirport" class="emphasise">Aeroporto di partenza:</label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.DepartureAirport" title="Inserisci l’aeroporto di partenza del volo originale."></a>
+                </div>
+                <div class="validationErrorText"></div><select data-bind="value: DepartureAirport, options:Airports, optionsText: &#39;Name&#39;, optionsValue: &#39;Code&#39;, labelPlaceholder: FlightDetails.Placeholders.DepartureAirport, optionsDisableDefault: true, validationKey:&#39;FlightDetails.DepartureAirport[0]&#39;" class="form-control" name="FlightDetails_DepartureAirport" id="FlightDetails_DepartureAirport" placeholder="Selezionare l’aeroporto di partenza"><option value="" selected="" disabled="disabled">Selezionare l’aeroporto di partenza</option><option value="LCG">A Coruña</option><option value="AAR">Aarhus</option><option value="ABZ">Aberdeen</option><option value="HEL">Aeroporto di Helsinki Vantaa</option><option value="PUF">Aeroporto di Pau Pyrénées</option><option value="RVN">Aeroporto di Rovaniemi</option><option value="FRA">Aeroporto internazionale di Francoforte</option><option value="RMU">Aeroporto internazionale di Murcia</option><option value="NBE">Aeroporto Internazionale Enfidha-Hammamet</option><option value="AGA">Agadir (Marocco)</option><option value="AJA">Ajaccio (Corsica)</option><option value="AEY">Akureyri</option><option value="AHO">Alghero (Sardegna)</option><option value="ALC">Alicante</option><option value="LEI">Almeria</option><option value="HAM">Amburgo</option><option value="AMM">Amman</option><option value="AMS">Amsterdam</option><option value="AOI">Ancona</option><option value="AYT">Antalia</option><option value="AQJ">Aqaba</option><option value="OSD">Åre Östersund Airport</option><option value="OVD">Asturias</option><option value="ATH">Atene</option><option value="BCN">Barcellona</option><option value="BRI">Bari</option><option value="BSL">Basel-Mulhouse-Freiburg</option><option value="BIA">Bastia (Corsica)</option><option value="BHD">Belfast City (George Best) </option><option value="BFS">Belfast Int.</option><option value="BEG">Belgrado</option><option value="BGO">Bergen</option><option value="SXF">Berlino Schoenefeld</option><option value="TXL">Berlino Tegel</option><option value="BER">Berlino-Brandeburgo</option><option value="BIQ">Biarritz</option><option value="BIO">Bilbao</option><option value="BHX">Birmingham</option><option value="BJV">Bodrum</option><option value="BLQ">Bologna</option><option value="BOD">Bordeaux</option><option value="BOH">Bournemouth</option><option value="BES">Brest (Bretagna)</option><option value="BDS">Brindisi</option><option value="BRS">Bristol</option><option value="BRU">Bruxelles Intl</option><option value="OTP">Bucarest (Otopeni)</option><option value="BUD">Budapest</option><option value="BOJ">Burgas</option><option value="CAG">Cagliari (Sardegna)</option><option value="SPX">Cairo (Sphinx)</option><option value="CLY">Calvi Saint-Catherine</option><option value="CMN">Casablanca (Mohammed V)</option><option value="CTA">Catania (Sicilia)</option><option value="EFL">Cefalonia</option><option value="LCA">Cipro (Larnaca)</option><option value="PFO">Cipro (Paphos)</option><option value="CGN">Colonia/Bonn</option><option value="CIY">Comiso Airport Pio La Torre</option><option value="CPH">Copenhagen</option><option value="CFU">Corfù</option><option value="KRK">Cracovia</option><option value="HER">Creta (Héraklion)</option><option value="CHQ">Creta (La Canea)</option><option value="SPU">Croazia (Spalato)</option><option value="DLM">Dalaman</option><option value="LDY">Derry / Londonderry</option><option value="DJE">Djerba</option><option value="DSA">Doncaster Sheffield</option><option value="DTM">Dortmund</option><option value="DRS">Dresda</option><option value="DBV">Dubrovnik</option><option value="DUS">Düsseldorf </option><option value="EMA">East Midlands</option><option value="EDI">Edimburgo</option><option value="ESU">Essaouira</option><option value="FAO">Faro</option><option value="FEZ">Fez</option><option value="FSC">Figari (Corsica)</option><option value="XFW">Finkenwerder</option><option value="FDH">Friedrichshafen</option><option value="FUE">Fuerteventura</option><option value="GDN">Gdansk</option><option value="GOA">Genova</option><option value="GIB">Gibilterra</option><option value="GVA">Ginevra</option><option value="GLA">Glasgow</option><option value="GOT">Goteborg Landvetter</option><option value="LPA">Gran Canaria</option><option value="GRX">Granada</option><option value="GRZ">Graz</option><option value="GNB">Grenoble</option><option value="LHR">Heathrow</option><option value="IBZ">Ibiza</option><option value="INN">Innsbruck</option><option value="INV">Inverness</option><option value="IOM">Isola di Man</option><option value="SAW">Istanbul - Sabiha Gökçen</option><option value="IST">Istanbul Airport</option><option value="IVL">Ivalo</option><option value="XRY">Jerez</option><option value="JER">Jersey</option><option value="KLX">Kalamata</option><option value="FKB">Karlsruhe/Baden-Baden</option><option value="KVA">Kavala</option><option value="KTT">Kittila</option><option value="KLU">Klagenfurt Kärnten Airport</option><option value="KGS">Kos</option><option value="SPC">La Palma</option><option value="LRH">La Rochelle</option><option value="SUF">Lamezia</option><option value="LMP">Lampedusa</option><option value="ACE">Lanzarote (Arrecife)</option><option value="LBA">Leeds Bradford</option><option value="LIL">Lille</option><option value="LIG">Limoges Bellegarde Airport</option><option value="LYS">Lione</option><option value="LIS">Lisbona</option><option value="LPL">Liverpool</option><option value="LGW">Londra Gatwick</option><option value="LTN">Londra Luton</option><option value="SEN">Londra Southend</option><option value="STN">Londra Stansted</option><option value="LJU">Lubiana</option><option value="LUZ">Lublin Airport</option><option value="LUX">Lussemburgo</option><option value="LXR">Luxor</option><option value="FNC">Madeira (Funchal)</option><option value="MAD">Madrid</option><option value="AGP">Malaga</option><option value="MLA">Malta</option><option value="MAN">Manchester</option><option value="RAK">Marrakesh (Marocco)</option><option value="RMF">Marsa Alam International Airport</option><option value="MRS">Marsiglia (Provenza)</option><option value="MAH">Menorca (Mahon)</option><option value="BGY">Milano Bergamo</option><option value="LIN">Milano Linate</option><option value="MXP">Milano Malpensa</option><option value="MUC">Monaco</option><option value="MIR">Monastir</option><option value="MPL">Montpellier</option><option value="DME">Mosca Domodedovo</option><option value="MJV">Murcia</option><option value="JMK">Mykonos</option><option value="NTE">Nantes</option><option value="NAP">Napoli</option><option value="NCL">Newcastle</option><option value="NQY">Newquay (Cornwall)</option><option value="NCE">Nizza</option><option value="OLB">Olbia (Sardegna)</option><option value="OPO">Oporto</option><option value="OSL">Oslo Gardermoen</option><option value="PMO">Palermo (Sicilia)</option><option value="PMI">Palma di Maiorca</option><option value="CDG">Parigi Charles de Gaulle</option><option value="ORY">Parigi Orly</option><option value="BVA">Paris Beauvais</option><option value="PSA">Pisa (Toscana)</option><option value="PDL">Ponta Delgada</option><option value="PXO">Porto Santo</option><option value="PRG">Praga</option><option value="PVK">Preveza</option><option value="PRN">Pristina</option><option value="PUY">Pula</option><option value="RNS">Rennes</option><option value="REU">Reus</option><option value="KEF">Reykjavik (Keflavik)</option><option value="RJK">Rijeka</option><option value="RHO">Rodi</option><option value="CIA">Roma Ciampino</option><option value="FCO">Roma Fiumicino</option><option value="SID">Sal (Cape Verde)</option><option value="RBA">Sale</option><option value="QSR">Salerno Costa DAmalfi</option><option value="SKG">Salonicco</option><option value="SZG">Salzburg</option><option value="SCQ">Santiago di Compostela</option><option value="JTR">Santorini</option><option value="SSH">Sharm el Sheikh</option><option value="JSH">Sitia</option><option value="SVQ">Siviglia</option><option value="JSI">Skiathos</option><option value="SKP">Skopje</option><option value="ADB">Smirne</option><option value="SOF">Sofia</option><option value="SOU">Southampton</option><option value="STR">Stoccarda</option><option value="ARN">Stoccolma</option><option value="SXB">Strasburgo</option><option value="GWT">Sylt</option><option value="TLL">Tallinn</option><option value="TNG">Tangeri</option><option value="LDE">Tarbes-Lourdes-Pyrenees</option><option value="TLV">Tel Aviv</option><option value="TFS">Tenerife Sud</option><option value="TIA">Tirana</option><option value="TIV">Tivat (Montenegro)</option><option value="TRN">Torino</option><option value="TLN">Toulon Hyeres</option><option value="TLS">Toulouse</option><option value="TOS">Tromso/Langes</option><option value="HRG">Urgada</option><option value="VLC">Valenzia</option><option value="VAR">Varna</option><option value="WAW">Varsavia</option><option value="VCE">Venezia Marco Polo</option><option value="VRN">Verona</option><option value="VIE">Vienna</option><option value="VOL">Volos Anchialos</option><option value="ZTH">Zacinto</option><option value="ZAD">Zadar</option><option value="ZAG">Zagabria</option><option value="ZRH">Zurigo</option></select>
+            </div>
+
+            <div class="col-md-6 col-sm-12">
+
+                <div class="control-label">
+                    <label for="FlightDetails_ArrivalAirport" data-bind="label: FlightDetails.ArrivalAirport" class="emphasise">Aeroporto di arrivo:</label>
+                    <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:FlightDetails.Tooltips.ArrivalAirport" title="Inserisci l’aeroporto di arrivo del volo originale."></a>
+                </div>
+                <div class="validationErrorText"></div><select data-bind="value: ArrivalAirport, options:Airports, optionsText: &#39;Name&#39;, optionsValue: &#39;Code&#39;, labelPlaceholder: FlightDetails.Placeholders.ArrivalAirport, optionsDisableDefault: true, validationKey:&#39;FlightDetails.ArrivalAirport[0]&#39;" class="form-control" name="FlightDetails_ArrivalAirport" id="FlightDetails_ArrivalAirport" placeholder="Selezionare l’aeroporto di arrivo"><option value="" selected="" disabled="disabled">Selezionare l’aeroporto di arrivo</option><option value="LCG">A Coruña</option><option value="AAR">Aarhus</option><option value="ABZ">Aberdeen</option><option value="HEL">Aeroporto di Helsinki Vantaa</option><option value="PUF">Aeroporto di Pau Pyrénées</option><option value="RVN">Aeroporto di Rovaniemi</option><option value="FRA">Aeroporto internazionale di Francoforte</option><option value="RMU">Aeroporto internazionale di Murcia</option><option value="NBE">Aeroporto Internazionale Enfidha-Hammamet</option><option value="AGA">Agadir (Marocco)</option><option value="AJA">Ajaccio (Corsica)</option><option value="AEY">Akureyri</option><option value="AHO">Alghero (Sardegna)</option><option value="ALC">Alicante</option><option value="LEI">Almeria</option><option value="HAM">Amburgo</option><option value="AMM">Amman</option><option value="AMS">Amsterdam</option><option value="AOI">Ancona</option><option value="AYT">Antalia</option><option value="AQJ">Aqaba</option><option value="OSD">Åre Östersund Airport</option><option value="OVD">Asturias</option><option value="ATH">Atene</option><option value="BCN">Barcellona</option><option value="BRI">Bari</option><option value="BSL">Basel-Mulhouse-Freiburg</option><option value="BIA">Bastia (Corsica)</option><option value="BHD">Belfast City (George Best) </option><option value="BFS">Belfast Int.</option><option value="BEG">Belgrado</option><option value="BGO">Bergen</option><option value="SXF">Berlino Schoenefeld</option><option value="TXL">Berlino Tegel</option><option value="BER">Berlino-Brandeburgo</option><option value="BIQ">Biarritz</option><option value="BIO">Bilbao</option><option value="BHX">Birmingham</option><option value="BJV">Bodrum</option><option value="BLQ">Bologna</option><option value="BOD">Bordeaux</option><option value="BOH">Bournemouth</option><option value="BES">Brest (Bretagna)</option><option value="BDS">Brindisi</option><option value="BRS">Bristol</option><option value="BRU">Bruxelles Intl</option><option value="OTP">Bucarest (Otopeni)</option><option value="BUD">Budapest</option><option value="BOJ">Burgas</option><option value="CAG">Cagliari (Sardegna)</option><option value="SPX">Cairo (Sphinx)</option><option value="CLY">Calvi Saint-Catherine</option><option value="CMN">Casablanca (Mohammed V)</option><option value="CTA">Catania (Sicilia)</option><option value="EFL">Cefalonia</option><option value="LCA">Cipro (Larnaca)</option><option value="PFO">Cipro (Paphos)</option><option value="CGN">Colonia/Bonn</option><option value="CIY">Comiso Airport Pio La Torre</option><option value="CPH">Copenhagen</option><option value="CFU">Corfù</option><option value="KRK">Cracovia</option><option value="HER">Creta (Héraklion)</option><option value="CHQ">Creta (La Canea)</option><option value="SPU">Croazia (Spalato)</option><option value="DLM">Dalaman</option><option value="LDY">Derry / Londonderry</option><option value="DJE">Djerba</option><option value="DSA">Doncaster Sheffield</option><option value="DTM">Dortmund</option><option value="DRS">Dresda</option><option value="DBV">Dubrovnik</option><option value="DUS">Düsseldorf </option><option value="EMA">East Midlands</option><option value="EDI">Edimburgo</option><option value="ESU">Essaouira</option><option value="FAO">Faro</option><option value="FEZ">Fez</option><option value="FSC">Figari (Corsica)</option><option value="XFW">Finkenwerder</option><option value="FDH">Friedrichshafen</option><option value="FUE">Fuerteventura</option><option value="GDN">Gdansk</option><option value="GOA">Genova</option><option value="GIB">Gibilterra</option><option value="GVA">Ginevra</option><option value="GLA">Glasgow</option><option value="GOT">Goteborg Landvetter</option><option value="LPA">Gran Canaria</option><option value="GRX">Granada</option><option value="GRZ">Graz</option><option value="GNB">Grenoble</option><option value="LHR">Heathrow</option><option value="IBZ">Ibiza</option><option value="INN">Innsbruck</option><option value="INV">Inverness</option><option value="IOM">Isola di Man</option><option value="SAW">Istanbul - Sabiha Gökçen</option><option value="IST">Istanbul Airport</option><option value="IVL">Ivalo</option><option value="XRY">Jerez</option><option value="JER">Jersey</option><option value="KLX">Kalamata</option><option value="FKB">Karlsruhe/Baden-Baden</option><option value="KVA">Kavala</option><option value="KTT">Kittila</option><option value="KLU">Klagenfurt Kärnten Airport</option><option value="KGS">Kos</option><option value="SPC">La Palma</option><option value="LRH">La Rochelle</option><option value="SUF">Lamezia</option><option value="LMP">Lampedusa</option><option value="ACE">Lanzarote (Arrecife)</option><option value="LBA">Leeds Bradford</option><option value="LIL">Lille</option><option value="LIG">Limoges Bellegarde Airport</option><option value="LYS">Lione</option><option value="LIS">Lisbona</option><option value="LPL">Liverpool</option><option value="LGW">Londra Gatwick</option><option value="LTN">Londra Luton</option><option value="SEN">Londra Southend</option><option value="STN">Londra Stansted</option><option value="LJU">Lubiana</option><option value="LUZ">Lublin Airport</option><option value="LUX">Lussemburgo</option><option value="LXR">Luxor</option><option value="FNC">Madeira (Funchal)</option><option value="MAD">Madrid</option><option value="AGP">Malaga</option><option value="MLA">Malta</option><option value="MAN">Manchester</option><option value="RAK">Marrakesh (Marocco)</option><option value="RMF">Marsa Alam International Airport</option><option value="MRS">Marsiglia (Provenza)</option><option value="MAH">Menorca (Mahon)</option><option value="BGY">Milano Bergamo</option><option value="LIN">Milano Linate</option><option value="MXP">Milano Malpensa</option><option value="MUC">Monaco</option><option value="MIR">Monastir</option><option value="MPL">Montpellier</option><option value="DME">Mosca Domodedovo</option><option value="MJV">Murcia</option><option value="JMK">Mykonos</option><option value="NTE">Nantes</option><option value="NAP">Napoli</option><option value="NCL">Newcastle</option><option value="NQY">Newquay (Cornwall)</option><option value="NCE">Nizza</option><option value="OLB">Olbia (Sardegna)</option><option value="OPO">Oporto</option><option value="OSL">Oslo Gardermoen</option><option value="PMO">Palermo (Sicilia)</option><option value="PMI">Palma di Maiorca</option><option value="CDG">Parigi Charles de Gaulle</option><option value="ORY">Parigi Orly</option><option value="BVA">Paris Beauvais</option><option value="PSA">Pisa (Toscana)</option><option value="PDL">Ponta Delgada</option><option value="PXO">Porto Santo</option><option value="PRG">Praga</option><option value="PVK">Preveza</option><option value="PRN">Pristina</option><option value="PUY">Pula</option><option value="RNS">Rennes</option><option value="REU">Reus</option><option value="KEF">Reykjavik (Keflavik)</option><option value="RJK">Rijeka</option><option value="RHO">Rodi</option><option value="CIA">Roma Ciampino</option><option value="FCO">Roma Fiumicino</option><option value="SID">Sal (Cape Verde)</option><option value="RBA">Sale</option><option value="QSR">Salerno Costa DAmalfi</option><option value="SKG">Salonicco</option><option value="SZG">Salzburg</option><option value="SCQ">Santiago di Compostela</option><option value="JTR">Santorini</option><option value="SSH">Sharm el Sheikh</option><option value="JSH">Sitia</option><option value="SVQ">Siviglia</option><option value="JSI">Skiathos</option><option value="SKP">Skopje</option><option value="ADB">Smirne</option><option value="SOF">Sofia</option><option value="SOU">Southampton</option><option value="STR">Stoccarda</option><option value="ARN">Stoccolma</option><option value="SXB">Strasburgo</option><option value="GWT">Sylt</option><option value="TLL">Tallinn</option><option value="TNG">Tangeri</option><option value="LDE">Tarbes-Lourdes-Pyrenees</option><option value="TLV">Tel Aviv</option><option value="TFS">Tenerife Sud</option><option value="TIA">Tirana</option><option value="TIV">Tivat (Montenegro)</option><option value="TRN">Torino</option><option value="TLN">Toulon Hyeres</option><option value="TLS">Toulouse</option><option value="TOS">Tromso/Langes</option><option value="HRG">Urgada</option><option value="VLC">Valenzia</option><option value="VAR">Varna</option><option value="WAW">Varsavia</option><option value="VCE">Venezia Marco Polo</option><option value="VRN">Verona</option><option value="VIE">Vienna</option><option value="VOL">Volos Anchialos</option><option value="ZTH">Zacinto</option><option value="ZAD">Zadar</option><option value="ZAG">Zagabria</option><option value="ZRH">Zurigo</option></select>
+            </div>
+        </div>
+    </div>
+</div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <legend><span data-bind="text: Navigation().GetIndex(&#39;ClaimantDetails&#39;) + 1">2</span>.&nbsp;<span data-bind="label: Main.Headings.ClaimantDetails">Informazioni di contatto del richiedente</span></legend>
+                        <div class="col-lg-12" data-bind="template: { name: &#39;Claims/ClaimantDetails&#39;, data: ClaimantDetails()}">
+
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <p data-bind="label: ClaimantDetails.DisclaimerEU261,visible: ShowLeadBooker()" style="display: none;">Quando completi il campo Nome richiedente e Cognome richiedente, assicurati di utilizzare il nome fornito al momento della prenotazione.</p>
+            <p data-bind="label: ClaimantDetails.DisclaimerWelfare, visible: !ShowLeadBooker()">Quando completi il campo Nome richiedente e Cognome richiedente, assicurati di utilizzare il nome fornito al momento della prenotazione. I passeggeri possono presentare una richiesta per se stessi e/o altri passeggeri nella stessa prenotazione. L'importo richiesto verrà diviso se viene inviata una singola ricevuta per più passeggeri.</p>
+        </div>
+    </div>
+
+    <div class="row clearfix marginTop" data-bind="if: ShowTravelAgent()"></div>
+
+    <div class="row clearfix marginTop">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_FirstName" data-bind="label: ClaimantDetails.FirstName" class="emphasise col-form-label">Nome del richiedente: Carmen Cecilia</label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.ClaimantFirstNameWelfare,visible: !ShowLeadBooker()" title="Utilizza i nomi forniti al momento della prenotazione. Solo chi ha effettuato la prenotazione o un passeggero può richiedere il rimborso delle spese."></a>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.ClaimantFirstNameEU261,visible: ShowLeadBooker()" title="Utilizza i nomi forniti al momento della prenotazione." style="display: none;"></a>
+            <div class="validationErrorText"></div><input type="text" data-bind="textInput: FirstName, validationKey:&#39;ClaimantDetails.FirstName[0]&#39;" class="form-control" name="ClaimantDetails_FirstName" id="ClaimantDetails_FirstName" maxlength="100">
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_LastName" data-bind="label: ClaimantDetails.LastName" class="emphasise col-form-label">Cognome del richiedente: Trofin</label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.ClaimantLastNameWelfare,visible: !ShowLeadBooker()" title="Utilizza i nomi forniti al momento della prenotazione."></a>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.ClaimantLastNameEU261,visible: ShowLeadBooker()" title="Utilizza i nomi forniti al momento della prenotazione." style="display: none;"></a>
+            <div class="validationErrorText"></div><input type="text" data-bind="textInput: LastName, validationKey:&#39;ClaimantDetails.LastName[0]&#39;" class="form-control" name="ClaimantDetails_LastName" id="ClaimantDetails_LastName" maxlength="100">
+        </div>
+    </div>
+
+    <div data-bind="visible: NotEnteringAddressManually()" class="row clearfix marginTop">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_CountrySearch" data-bind="label: ClaimantDetails.CountryEU261,visible: ShowLeadBooker()" class="emphasise col-form-label" style="display: none;">Paese:</label>
+            <label for="ClaimantDetails_CountrySearch" data-bind="label: ClaimantDetails.Country, visible: !ShowLeadBooker()" class="emphasise col-form-label">Paese:</label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.Country" title="Questo è il Paesein cui risiede il richiedente."></a>
+            <div class="validationErrorText"></div><select data-bind="options: Countries, optionsLabel:Countries, value: Country, optionsText: &#39;name&#39;, optionsValue: &#39;code&#39;, labelPlaceholder: ClaimantDetails.Placeholders.Country, validationKey:&#39;ClaimantDetails.Country[0]&#39;" class="form-control" name="ClaimantDetails_CountrySearch" id="ClaimantDetails_CountrySearch" placeholder="Selezionare un Paese"><option value="" selected="">Selezionare un Paese</option><option value="GB">Regno Unito</option><option value="AF">Afghanistan</option><option value="AX">Isole Åland</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">Samoa Americane</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antartide</option><option value="AG">Antigua e Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaigian</option><option value="BS">Bahamas</option><option value="BH">Bahrein</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Bielorussia</option><option value="BE">Belgio</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia, Stato Plurinazionale di</option><option value="BQ">Bonaire, Sint Eustatius e Saba</option><option value="BA">Bosnia ed Erzegovina</option><option value="BW">Botswana</option><option value="BV">Isola Bouvet</option><option value="BR">Brasile</option><option value="IO">Territorio britannico dell’Oceano Indiano</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="CV">Capo Verde</option><option value="KH">Cambogia</option><option value="CM">Camerun</option><option value="CA">Canada</option><option value="KY">Isole Cayman</option><option value="CF">Repubblica Centrafricana</option><option value="TD">Ciad</option><option value="CL">Cile</option><option value="CN">Cina</option><option value="CX">Isola Christmas</option><option value="CC">Isole Cocos (Keeling)</option><option value="CO">Colombia</option><option value="KM">Comore</option><option value="CG">Congo</option><option value="CD">Congo, Repubblica Democratica del</option><option value="CK">Isole Cook</option><option value="CR">Costa Rica</option><option value="CI">Costa d’Avorio</option><option value="HR">Croazia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option><option value="CY">Cipro</option><option value="CZ">Repubblica Ceca</option><option value="DK">Danimarca</option><option value="DJ">Gibuti</option><option value="DM">Dominica</option><option value="DO">Repubblica Dominicana</option><option value="EC">Ecuador</option><option value="EG">Egitto</option><option value="SV">El Salvador</option><option value="GQ">Guinea Equatoriale</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Etiopia</option><option value="FK">Isole Falkland (Malvine)</option><option value="FO">Isole Faer Oer</option><option value="FJ">Figi</option><option value="FI">Finlandia</option><option value="FR">Francia</option><option value="GF">Guiana Francese</option><option value="PF">Polinesia Francese</option><option value="TF">Terre Australi Francesi</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germania</option><option value="GH">Ghana</option><option value="GI">Gibilterra</option><option value="GR">Grecia</option><option value="GL">Groenlandia</option><option value="GD">Grenada</option><option value="GP">Guadalupa</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Isole Heard e McDonald</option><option value="VA">Santa Sede</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Ungheria</option><option value="IS">Islanda</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran, Repubblica islamica dell’</option><option value="IQ">Iraq</option><option value="IE">Irlanda</option><option value="IM">Isola di Man</option><option value="IL">Israele</option><option value="IT">Italia</option><option value="JM">Giamaica</option><option value="JP">Giappone</option><option value="JE">Jersey</option><option value="JO">Giordania</option><option value="KZ">Kazakistan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KP">Corea, Repubblica Democratica Popolare di</option><option value="KR">Corea, Repubblica di</option><option value="KW">Kuwait</option><option value="KG">Kirghizistan</option><option value="LA">Repubblica Democratica Popolare del Laos</option><option value="LV">Lettonia</option><option value="LB">Libano</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libia</option><option value="LI">Liechtenstein</option><option value="LT">Lituania</option><option value="LU">Lussemburgo</option><option value="MO">Macao</option><option value="MK">Macedonia, ex Repubblica Jugoslava di</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldive</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Isole Marshall</option><option value="MQ">Martinica</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Messico</option><option value="FM">Micronesia, Stati federati di</option><option value="MD">Moldavia, Repubblica di</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Marocco</option><option value="MZ">Mozambico</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Paesi Bassi</option><option value="NC">Nuova Caledonia</option><option value="NZ">Nuova Zelanda</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Isola Norfolk</option><option value="MP">Marianne Settentrionali</option><option value="NO">Norvegia</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestina, Stato di</option><option value="PA">Panama</option><option value="PG">Papua Nuova Guinea</option><option value="PY">Paraguay</option><option value="PE">Perù</option><option value="PH">Filippine</option><option value="PN">Pitcairn</option><option value="PL">Polonia</option><option value="PT">Portogallo</option><option value="PR">Portorico</option><option value="QA">Qatar</option><option value="RE">Riunione</option><option value="RO">Romania</option><option value="RU">Federazione russa</option><option value="RW">Ruanda</option><option value="BL">Saint Barthélemy</option><option value="SH">Sant’Elena, Ascensione e Tristan da Cunha</option><option value="KN">Saint Kitts e Nevis</option><option value="LC">Santa Lucia</option><option value="MF">Saint Martin (parte francese)</option><option value="PM">Saint Pierre e Miquelon</option><option value="VC">Saint Vincent e Grenadine</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">São Tomé e Príncipe</option><option value="SA">Arabia Saudita</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten (parte olandese)</option><option value="SK">Slovacchia</option><option value="SI">Slovenia</option><option value="SB">Isole Salomone</option><option value="SO">Somalia</option><option value="ZA">Sudafrica</option><option value="GS">Georgia del Sud e Sandwich Australi</option><option value="SS">Sudan del Sud</option><option value="ES">Spagna</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard e Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Svezia</option><option value="CH">Svizzera</option><option value="SY">Repubblica Araba della Siria</option><option value="TW">Taiwan, provincia cinese</option><option value="TJ">Tagikistan</option><option value="TZ">Tanzania, Repubblica unita di</option><option value="TH">Thailandia</option><option value="TL">Timor Est</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad e Tobago</option><option value="TN">Tunisia</option><option value="TR">Turchia</option><option value="TM">Turkmenistan</option><option value="TC">Isole Turks e Caicos</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ucraina</option><option value="AE">Emirati Arabi Uniti</option><option value="US">Stati Uniti</option><option value="UM">Altre isole americane del Pacifico</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela, Repubblica Bolivariana del</option><option value="VN">Vietnam</option><option value="VG">Isole Vergini (Britanniche)</option><option value="VI">Isole Vergini (Americane)</option><option value="WF">Wallis e Futuna</option><option value="EH">Sahara Occidentale</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+        </div>
+
+
+    </div>
+
+    <div class="row clearfix marginTop" data-bind="visible: IsEnteringAddressManually(), if: IsEnteringAddressManually()" style="display: none;"></div>
+
+
+
+    <div class="row clearfix marginEmailPhone">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_EMail" data-bind="label: ClaimantDetails.EMail" class="emphasise col-form-label">Email:</label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.EMail" title="Per permetterci di tenerti aggiornato con lo stato del tuo reclamo, inserisci un indirizzo email valido."></a>
+            <div class="validationErrorText"></div><input type="text" data-bind="value: EMail, validationKey:&#39;ClaimantDetails.EMail[0]&#39;" class="form-control" name="ClaimantDetails_EMail" id="ClaimantDetails_EMail" maxlength="80">
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="ClaimantDetails_TelephoneRegion" data-bind="label: ClaimantDetails.TelephoneRegion" class="emphasise col-form-label">Numero di cellulare (&amp; prefisso internazionale):</label>
+            <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:ClaimantDetails.Tooltips.PhoneNumber" title="Inserisci un numero di telefono valido nel caso in cui dovessimo contattarti. "></a>
+            <div id="ClaimantDetails_TelephoneCountryCode_ValidationText" class="validationErrorText"></div>
+            <div id="ClaimantDetails_TelephoneRegion_ValidationText" class="validationErrorText"></div>
+            <div class="input-group">
+                <span class="input-group-addon input-group-addon-left">
+                    <input type="text" data-bind="value: TelephoneCountryCode, validationKey: &#39;ClaimantDetails.TelephoneCountryCode[0]&#39;, validationElement: &#39;ClaimantDetails_TelephoneCountryCode_ValidationText&#39;" class="form-control telephone-country" name="ClaimantDetails_TelephoneCountryCode" id="ClaimantDetails_TelephoneCountryCode" data-mask="+0000" maxlength="5" autocomplete="off">
+                </span>
+                <input type="text" data-bind="value: TelephoneRegion, validationKey: &#39;ClaimantDetails.TelephoneRegion[0]&#39;, validationElement: &#39;ClaimantDetails_TelephoneRegion_ValidationText&#39;" class="form-control" name="ClaimantDetails_TelephoneRegion" id="ClaimantDetails_TelephoneRegion" data-mask="T" data-mask-regex-t="[0-9]" data-mask-t-recursive="1" maxlength="14" autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <div data-bind="visible: ShowLeadBooker()" style="display: none;">
+        <div class="row clearfix marginTop" data-bind="if: NotTravelAgent()">
+            <div class="col-md-6 col-sm-12 col-xs-12">
+                <label for="ClaimantDetails_IsLeadBooker" data-bind="label: ClaimantDetails.IsLeadBooker" class="emphasise col-form-label">Incaricato della prenotazione:</label>
+                <div class="validationErrorText"></div><select data-bind="options: YesNo, optionsLabel: YesNo, value: IsLeadBookerYesNo, optionsText: &#39;text&#39;, optionsValue: &#39;value&#39;, labelPlaceholder: ClaimantDetails.Placeholders.IsLeadBooker, validationKey:&#39;ClaimantDetails.IsLeadBookerYesNo[0]&#39;, optionsDisableDefault: true" class="form-control" name="ClaimantDetails_IsLeadBooker" id="ClaimantDetails_IsLeadBooker" placeholder="Ha effettuato la prenotazione originale?"><option value="" selected="" disabled="disabled">Ha effettuato la prenotazione originale?</option><option value="1">Sì</option><option value="2">No</option></select>
+            </div>
+        </div>
+    </div>
+</div>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <legend><span data-bind="text: Navigation().GetIndex(&#39;BankAccount&#39;) + 1">3</span>.&nbsp;<span data-bind="label: Main.Headings.BankAccount">Dettagli del pagamento</span></legend>
+                        <div class="col-lg-12" data-bind="template: { name: &#39;Claims/BankAccount&#39;, data: BankAccount()}">
+    <div class="col-md-12 col-sm-12 col-xs-12 PaymentDetailsInfo" data-bind="if: IsEU261()"></div>
+    <div class="col-md-12 col-sm-12 col-xs-12 PaymentDetailsInfo" data-bind="if: IsWelfare()">
+        <p data-bind="label: BankAccount.IfSuccessfulNoteWelfare, visible: IsBankTransfer()"><p>Se dovessi avere diritto a un rimborso, utilizzeremo questi dettagli per effettuare un pagamento. Il bonifico bancario è il modo più sicuro, rapido e protetto per permetterci di effettuare il tuo pagamento. Per maggiori informazioni su come proteggiamo i tuoi dati, visualizza la nostra <a href="http://www.easyjet.com/it/policy/privacy?#protectingyourinformation" target="_blank">Informativa sulla privacy</a>.</p><p>Non inserire i dettagli della carta di credito poiché non saremo in grado di rimborsarti.</p></p>
+        <p data-bind="label: BankAccount.IfSuccessfulNoteInternationalWelfare, visible: NotBankTransfer() &amp;&amp; !ForceCheque()" style="display: none;">Se dovesse avere diritto al rimborso, la contatteremo per disporre il pagamento.</p>
+        <p data-bind="label: BankAccount.TravelAgentClaims, visible: ForceCheque()" style="display: none;">Se la sua richiesta di risarcimento dovesse essere approvata, il pagamento avverrà tramite assegno. Gli assegni saranno inviati all’indirizzo del Richiedente e potranno essere pagati ai passeggeri inclusi nella richiesta di risarcimento inviata.</p>
+    </div>
+
+    <div class="row clearfix" data-bind="if: !ForceCheque()">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="BankAccount_BankAccountCountry" class="control-label">
+                <span data-bind="label: BankAccount.BankAccountCountry" class="emphasise">Paese in cui si possiede il conto bancario:</span>
+                <i class="fa">&nbsp;</i>
+            </label>
+
+            <div class="validationErrorText"></div><select data-bind="options: Countries, optionsLabel: Countries, optionsText: &#39;name&#39;, optionsValue: &#39;code&#39;, value: BankAccountCountry, validationKey: &#39;BankAccount.BankAccountCountry[0]&#39;" class="form-control" name="BankAccount_BankAccountCountry" id="BankAccount_BankAccountCountry"><option value="GB">Regno Unito</option><option value="AF">Afghanistan</option><option value="AX">Isole Åland</option><option value="AL">Albania</option><option value="DZ">Algeria</option><option value="AS">Samoa Americane</option><option value="AD">Andorra</option><option value="AO">Angola</option><option value="AI">Anguilla</option><option value="AQ">Antartide</option><option value="AG">Antigua e Barbuda</option><option value="AR">Argentina</option><option value="AM">Armenia</option><option value="AW">Aruba</option><option value="AU">Australia</option><option value="AT">Austria</option><option value="AZ">Azerbaigian</option><option value="BS">Bahamas</option><option value="BH">Bahrein</option><option value="BD">Bangladesh</option><option value="BB">Barbados</option><option value="BY">Bielorussia</option><option value="BE">Belgio</option><option value="BZ">Belize</option><option value="BJ">Benin</option><option value="BM">Bermuda</option><option value="BT">Bhutan</option><option value="BO">Bolivia, Stato Plurinazionale di</option><option value="BQ">Bonaire, Sint Eustatius e Saba</option><option value="BA">Bosnia ed Erzegovina</option><option value="BW">Botswana</option><option value="BV">Isola Bouvet</option><option value="BR">Brasile</option><option value="IO">Territorio britannico dell’Oceano Indiano</option><option value="BN">Brunei Darussalam</option><option value="BG">Bulgaria</option><option value="BF">Burkina Faso</option><option value="BI">Burundi</option><option value="CV">Capo Verde</option><option value="KH">Cambogia</option><option value="CM">Camerun</option><option value="CA">Canada</option><option value="KY">Isole Cayman</option><option value="CF">Repubblica Centrafricana</option><option value="TD">Ciad</option><option value="CL">Cile</option><option value="CN">Cina</option><option value="CX">Isola Christmas</option><option value="CC">Isole Cocos (Keeling)</option><option value="CO">Colombia</option><option value="KM">Comore</option><option value="CG">Congo</option><option value="CD">Congo, Repubblica Democratica del</option><option value="CK">Isole Cook</option><option value="CR">Costa Rica</option><option value="CI">Costa d’Avorio</option><option value="HR">Croazia</option><option value="CU">Cuba</option><option value="CW">Curaçao</option><option value="CY">Cipro</option><option value="CZ">Repubblica Ceca</option><option value="DK">Danimarca</option><option value="DJ">Gibuti</option><option value="DM">Dominica</option><option value="DO">Repubblica Dominicana</option><option value="EC">Ecuador</option><option value="EG">Egitto</option><option value="SV">El Salvador</option><option value="GQ">Guinea Equatoriale</option><option value="ER">Eritrea</option><option value="EE">Estonia</option><option value="ET">Etiopia</option><option value="FK">Isole Falkland (Malvine)</option><option value="FO">Isole Faer Oer</option><option value="FJ">Figi</option><option value="FI">Finlandia</option><option value="FR">Francia</option><option value="GF">Guiana Francese</option><option value="PF">Polinesia Francese</option><option value="TF">Terre Australi Francesi</option><option value="GA">Gabon</option><option value="GM">Gambia</option><option value="GE">Georgia</option><option value="DE">Germania</option><option value="GH">Ghana</option><option value="GI">Gibilterra</option><option value="GR">Grecia</option><option value="GL">Groenlandia</option><option value="GD">Grenada</option><option value="GP">Guadalupa</option><option value="GU">Guam</option><option value="GT">Guatemala</option><option value="GG">Guernsey</option><option value="GN">Guinea</option><option value="GW">Guinea-Bissau</option><option value="GY">Guyana</option><option value="HT">Haiti</option><option value="HM">Isole Heard e McDonald</option><option value="VA">Santa Sede</option><option value="HN">Honduras</option><option value="HK">Hong Kong</option><option value="HU">Ungheria</option><option value="IS">Islanda</option><option value="IN">India</option><option value="ID">Indonesia</option><option value="IR">Iran, Repubblica islamica dell’</option><option value="IQ">Iraq</option><option value="IE">Irlanda</option><option value="IM">Isola di Man</option><option value="IL">Israele</option><option value="IT">Italia</option><option value="JM">Giamaica</option><option value="JP">Giappone</option><option value="JE">Jersey</option><option value="JO">Giordania</option><option value="KZ">Kazakistan</option><option value="KE">Kenya</option><option value="KI">Kiribati</option><option value="KP">Corea, Repubblica Democratica Popolare di</option><option value="KR">Corea, Repubblica di</option><option value="KW">Kuwait</option><option value="KG">Kirghizistan</option><option value="LA">Repubblica Democratica Popolare del Laos</option><option value="LV">Lettonia</option><option value="LB">Libano</option><option value="LS">Lesotho</option><option value="LR">Liberia</option><option value="LY">Libia</option><option value="LI">Liechtenstein</option><option value="LT">Lituania</option><option value="LU">Lussemburgo</option><option value="MO">Macao</option><option value="MK">Macedonia, ex Repubblica Jugoslava di</option><option value="MG">Madagascar</option><option value="MW">Malawi</option><option value="MY">Malaysia</option><option value="MV">Maldive</option><option value="ML">Mali</option><option value="MT">Malta</option><option value="MH">Isole Marshall</option><option value="MQ">Martinica</option><option value="MR">Mauritania</option><option value="MU">Mauritius</option><option value="YT">Mayotte</option><option value="MX">Messico</option><option value="FM">Micronesia, Stati federati di</option><option value="MD">Moldavia, Repubblica di</option><option value="MC">Monaco</option><option value="MN">Mongolia</option><option value="ME">Montenegro</option><option value="MS">Montserrat</option><option value="MA">Marocco</option><option value="MZ">Mozambico</option><option value="MM">Myanmar</option><option value="NA">Namibia</option><option value="NR">Nauru</option><option value="NP">Nepal</option><option value="NL">Paesi Bassi</option><option value="NC">Nuova Caledonia</option><option value="NZ">Nuova Zelanda</option><option value="NI">Nicaragua</option><option value="NE">Niger</option><option value="NG">Nigeria</option><option value="NU">Niue</option><option value="NF">Isola Norfolk</option><option value="MP">Marianne Settentrionali</option><option value="NO">Norvegia</option><option value="OM">Oman</option><option value="PK">Pakistan</option><option value="PW">Palau</option><option value="PS">Palestina, Stato di</option><option value="PA">Panama</option><option value="PG">Papua Nuova Guinea</option><option value="PY">Paraguay</option><option value="PE">Perù</option><option value="PH">Filippine</option><option value="PN">Pitcairn</option><option value="PL">Polonia</option><option value="PT">Portogallo</option><option value="PR">Portorico</option><option value="QA">Qatar</option><option value="RE">Riunione</option><option value="RO">Romania</option><option value="RU">Federazione russa</option><option value="RW">Ruanda</option><option value="BL">Saint Barthélemy</option><option value="SH">Sant’Elena, Ascensione e Tristan da Cunha</option><option value="KN">Saint Kitts e Nevis</option><option value="LC">Santa Lucia</option><option value="MF">Saint Martin (parte francese)</option><option value="PM">Saint Pierre e Miquelon</option><option value="VC">Saint Vincent e Grenadine</option><option value="WS">Samoa</option><option value="SM">San Marino</option><option value="ST">São Tomé e Príncipe</option><option value="SA">Arabia Saudita</option><option value="SN">Senegal</option><option value="RS">Serbia</option><option value="SC">Seychelles</option><option value="SL">Sierra Leone</option><option value="SG">Singapore</option><option value="SX">Sint Maarten (parte olandese)</option><option value="SK">Slovacchia</option><option value="SI">Slovenia</option><option value="SB">Isole Salomone</option><option value="SO">Somalia</option><option value="ZA">Sudafrica</option><option value="GS">Georgia del Sud e Sandwich Australi</option><option value="SS">Sudan del Sud</option><option value="ES">Spagna</option><option value="LK">Sri Lanka</option><option value="SD">Sudan</option><option value="SR">Suriname</option><option value="SJ">Svalbard e Jan Mayen</option><option value="SZ">Swaziland</option><option value="SE">Svezia</option><option value="CH">Svizzera</option><option value="SY">Repubblica Araba della Siria</option><option value="TW">Taiwan, provincia cinese</option><option value="TJ">Tagikistan</option><option value="TZ">Tanzania, Repubblica unita di</option><option value="TH">Thailandia</option><option value="TL">Timor Est</option><option value="TG">Togo</option><option value="TK">Tokelau</option><option value="TO">Tonga</option><option value="TT">Trinidad e Tobago</option><option value="TN">Tunisia</option><option value="TR">Turchia</option><option value="TM">Turkmenistan</option><option value="TC">Isole Turks e Caicos</option><option value="TV">Tuvalu</option><option value="UG">Uganda</option><option value="UA">Ucraina</option><option value="AE">Emirati Arabi Uniti</option><option value="US">Stati Uniti</option><option value="UM">Altre isole americane del Pacifico</option><option value="UY">Uruguay</option><option value="UZ">Uzbekistan</option><option value="VU">Vanuatu</option><option value="VE">Venezuela, Repubblica Bolivariana del</option><option value="VN">Vietnam</option><option value="VG">Isole Vergini (Britanniche)</option><option value="VI">Isole Vergini (Americane)</option><option value="WF">Wallis e Futuna</option><option value="EH">Sahara Occidentale</option><option value="YE">Yemen</option><option value="ZM">Zambia</option><option value="ZW">Zimbabwe</option></select>
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="visible: IsBankTransfer()">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+            <div class="control-label">
+                <label for="BankAccount_BankAccountHolderName" data-bind="label: BankAccount.BankAccountHolderName" class="emphasise">Nome completo del titolare del conto bancario:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:BankAccount.Tooltips.BankAccountHolderName" title="Inserisci il nome e il cognome del titolare del conto bancario."></a>
+                <i class="fa">&nbsp;</i>
+            </div>
+            <div class="validationErrorText"></div><input type="text" data-bind="value: BankAccountHolderName, validationKey: &#39;BankAccount.BankAccountHolderName[0]&#39;" class="form-control" name="BankAccount_BankAccountHolderName" id="BankAccount_BankAccountHolderName" maxlength="35">
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="visible: IsBankTransfer()">
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsBICVisible()">
+            <div class="control-label">
+                <label for="BankAccount_BIC" data-bind="label: BankAccount.BIC, visible: IsSwiftBIC() == false" class="emphasise">BIC:</label>
+                <label for="BankAccount_BIC" data-bind="label: BankAccount.SwiftBIC, visible: IsSwiftBIC()" class="emphasise" style="display: none;">Swift/BIC:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:BankAccount.Tooltips.BIC/SWIFT" title="Inserisci il codice BIC / Swift; composto da numeri e lettere."></a>
+            </div>
+            <div class="validationErrorText"></div><input type="text" data-bind="value: BIC, validationKey: &#39;BankAccount.BIC[0]&#39;" class="form-control" name="BankAccount_BIC" id="BankAccount_BIC" maxlength="11" data-mask="T" data-mask-regex-t="[a-zA-Z0-9]" data-mask-t-recursive="1" data-mask-uppercase="1" autocomplete="off">
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsIBANVisible()">
+            <div class="control-label">
+                <label for="BankAccount_IBAN" data-bind="label: BankAccount.IBAN" class="emphasise">IBAN:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:BankAccount.Tooltips.IBAN" title="Inserisci il tuo IBAN, che inizia con il prefisso del tuo paese seguito da 20 numeri, ad es. DExx xxxx xxxx xxxx xxxx xx"></a>
+            </div>
+            <div class="validationErrorText"></div><input type="text" data-bind="value: IBAN, validationKey: &#39;BankAccount.IBAN[0]&#39;" class="form-control" name="BankAccount_IBAN" id="BankAccount_IBAN" maxlength="34" data-mask="T" data-mask-regex-t="[a-zA-Z0-9]" data-mask-t-recursive="1" data-mask-uppercase="1" autocomplete="off">
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsSortCodeVisible()" style="display: none;">
+            <div class="control-label">
+                <label for="BankAccount_SortCode" data-bind="label: BankAccount.SortCode" class="emphasise">Codice bancario:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:BankAccount.Tooltips.SortCode" title="Inserisci il codice a 6 cifre associato alla tua banca. Esempio: 00-00-00"></a>
+            </div>
+
+            <div class="validationErrorText"></div><input type="text" data-bind="value: SortCodeFormatted, validationKey: &#39;BankAccount.SortCode[0]&#39;" class="form-control" name="BankAccount_SortCode" id="BankAccount_SortCode" data-mask="00-00-00" autocomplete="off" maxlength="8">
+        </div>
+
+        <div class="col-md-6 col-sm-12 col-xs-12" data-bind="visible: IsBankAccountNumberVisible()" style="display: none;">
+            <div class="control-label">
+                <label for="BankAccount_BankAccountNumber" data-bind="label: BankAccount.BankAccountNumber" class="emphasise">Numero di conto bancario:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:BankAccount.Tooltips.BankAccountNumber" title="Inserisci il numero di conto bancario associato alla tua banca. Nel Regno Unito, questo è il numero di 8 cifre sulla tua carta."></a>
+            </div>
+            <div class="validationErrorText"></div><input type="text" data-bind="value: BankAccountNumber, validationKey: &#39;BankAccount.BankAccountNumber[0]&#39;, attr: { maxlength : BankAccountNumberMaxLength }" class="form-control" name="BankAccount_BankAccountNumber" id="BankAccount_BankAccountNumber" data-mask="0#" maxlength="8" autocomplete="off">
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="if: !ForceCheque()">
+        <div class="col-md-6 col-sm-12 col-xs-12">
+            <label for="BankAccount_OptionalCurrency" data-bind="label: BankAccount.CurrencyCode, visible: IsCurrencyOptional()" class="emphasise" style="display: none;">La valuta in cui avverrà il pagamento, se la richiesta di risarcimento dovesse essere approvata:</label>
+            <span data-bind="if: IsCurrencyOptional()"></span>
+            <label for="BankAccount_CurrencyCode" data-bind="label: BankAccount.CurrencyCode, visible: CurrencyNotOptional()">La valuta in cui avverrà il pagamento, se la richiesta di risarcimento dovesse essere approvata:</label>
+            <span class="notranslate" id="BankAccount_CurrencyCode" data-bind="text: CurrencyDescription(), visible: CurrencyNotOptional()">EUR Euro</span>
+        </div>
+    </div>
+
+    <div class="row clearfix" data-bind="if: ForceCheque()"></div>
+</div>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <legend><span data-bind="text: Navigation().GetIndex(&#39;Passengers&#39;) + 1">4</span>.&nbsp;<span data-bind="label: Main.Headings.Passengers">Passaggeri</span></legend>
+                        <div class="col-lg-12" data-bind="template: { name: &#39;Claims/Passengers&#39;, data: Passengers()}">
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12">
+            <p data-bind="visible: IsEU261(), label: Passengers.AddPassengerNoteEU261" style="display: none;"><p>Sei hai effettuato tu la prenotazione, aggiungi tutti i passeggeri per cui sta effettuando una richiesta di risarcimento. Se le richieste di risarcimento sono effettuate a nome di altri passeggeri all’interno della stessa prenotazione, tali passeggeri non potranno più effettuare richieste di risarcimento separate.</p><p>Se non hai prenotato, ma sei un/il passeggero della prenotazione, puoi richiedere il risarcimento solo per te stesso. Per richiederlo per più passeggeri, per favore contatta chi ha effettuato la prenotazione.</p></p>
+            <p data-bind="visible: IsWelfare(), label: Passengers.AddPassengerNoteWelfare"><p>Sei hai effettuato tu la prenotazione, aggiungi tutti i passeggeri per cui stai richiedendo il rimborso delle spese. Se le richieste di risarcimento sono effettuate a nome di altri passeggeri all’interno della stessa prenotazione, tali passeggeri non potranno più effettuare richieste di risarcimento separate.</p><p>Nota: i passeggeri possono inviare una richiesta di risarcimento per se stessi e/o per altri passeggeri della stessa prenotazione.</p></p>
+        </div>
+    </div>
+    <div data-bind="foreach: Passengers">
+        <div class="row clearfix passenger-modal marginTop">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <label>
+                    <b data-bind="label: Passengers.PassengerNumber">Passeggero</b>&nbsp;<b data-bind="text: ($index() + 1)">1</b>&nbsp;
+                </label><br>
+                <button class="btn btn-link next btn-text" data-bind="click: function() { this.CopyClaimantToPassengerList.bind(this)($data) }.bind($parentContext.$parent), label: Main.CopyFromClaimantDetails">Copiare dai dettagli del richiedente</button>
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6 text-right" data-bind="if: $parent.CanRemovePassengers()"></div>
+        </div>
+        <div class="row clearfix" role="group">
+            <div class="col-md-6 col-sm-12">
+                <label for="Passengers_TempPassenger_FirstName" data-bind="label: Passengers.FirstName" class="emphasise control-label">Nome:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:Passengers.Tooltips.FirstName" title="Utilizza i nomi forniti al momento della prenotazione."></a>
+                <div class="validationErrorText"></div><input type="text" class="form-control" name="Passengers_TempPassenger_FirstName" id="Passengers_TempPassenger_FirstName" data-bind="value: FirstName, validationKey: &#39;Passenger.FirstName[&#39; + $index() + &#39;]&#39;" maxlength="100">
+            </div>
+
+            <div class="col-md-6 col-sm-12 clearfix">
+                <label for="Passengers_TempPassenger_LastName" data-bind="label: Passengers.LastName" class="emphasise control-label">Cognome:</label>
+                <a data-placement="right" data-toggle="tooltip" class="fa info-icon" aria-hidden="true" data-bind="labelAttr: &#39;title&#39;, label:Passengers.Tooltips.LastName" title="Utilizza i nomi forniti al momento della prenotazione."></a>
+                <div class="validationErrorText"></div><input type="text" class="form-control" name="Passengers_TempPassenger_LastName" id="Passengers_TempPassenger_LastName" data-bind="value: LastName, validationKey: &#39;Passenger.LastName[&#39; + $index() + &#39;]&#39;, " maxlength="100">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <button type="button" name="Passengers_AddPassenger" id="Passengers_AddPassenger" class="btn btn-link add-something btn-large" data-bind="event: { click: function() { $data.AddPassenger(); $.scrollTo(&#39;.passenger-modal:last&#39;); } }, label: Passengers.AddPassenger, visible: !MaxNumberOfPassengersReached()">Aggiungere un altro passeggero</button>
+        </div>
+    </div>
+
+    <div class="col-lg-12">
+        <div class="validationErrorText"></div><div data-bind="validationKey: &#39;Passenger.Passengers[0]&#39;, validationValue: Passengers"></div>
+    </div>
+</div>
+
+
+
+</div></div><div id="kvFileinputModal" class="file-zoom-dialog modal fade" tabindex="-1" aria-labelledby="kvFileinputModalLabel"><div class="modal-dialog modal-lg" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <div class="kv-zoom-actions pull-right"><button type="button" class="btn btn-default btn-header-toggle btn-toggleheader" title="Toggle header" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="glyphicon glyphicon-resize-vertical"></i></button><button type="button" class="btn btn-default btn-fullscreen" title="Toggle full screen" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="glyphicon glyphicon-fullscreen"></i></button><button type="button" class="btn btn-default btn-borderless" title="Toggle borderless mode" data-toggle="button" aria-pressed="false" autocomplete="off"><i class="glyphicon glyphicon-resize-full"></i></button><button type="button" class="btn btn-default btn-close" title="Close detailed preview" data-dismiss="modal" aria-hidden="true"><i class="glyphicon glyphicon-remove"></i></button></div>
+      <h3 class="modal-title">Detailed Preview <small><span class="kv-zoom-title"></span></small></h3>
+    </div>
+    <div class="modal-body">
+      <div class="floating-buttons"></div>
+      <div class="kv-zoom-body file-zoom-content"></div>
+<button type="button" class="btn btn-navigate btn-prev" title="View previous file"><i class="glyphicon glyphicon-triangle-left"></i></button> <button type="button" class="btn btn-navigate btn-next" title="View next file"><i class="glyphicon glyphicon-triangle-right"></i></button>
+    </div>
+  </div>
+</div>
+</div>
+                    <!--[if lt IE 10]></form><![endif]-->
+                    <div class="validation-summary-errors">
+                        <span data-bind="visible: SelectedFileIsInvalidFileExtensionDots(), label: Validation.WelfareDocuments.FileExtensionDots" style="display: none;">Il nome del file può contenere soltanto un '.' tra il nome stesso e l'estensione del file</span>
+                        <span data-bind="visible: SelectedFileIsInvalid(), label: Validation.WelfareDocuments.FileUploadError" style="display: none;">Il file selezionato ha dimensioni non valide o il tipo di file non é valido.</span>
+                        <span data-bind="visible: SelectedFileIsInvalidServerSide(), label: Validation.WelfareDocuments.FileUploadErrorServerSide" style="display: none;">Si è verificato un errore sul server durante il caricamento del file. Riprovare tra alcuni secondi.</span>
+                    </div>
+                    <!--[if lt IE 10]><span class="success-message" data-bind="visible: FileUploadSuccess(), label: Validation.WelfareDocuments.FileUploadSuccessMessage"></span><![endif]-->
+                    <p data-bind="label: WelfareDocuments.UploadNote"><b></b></p>
+                </div>
+                <div class="col-md-12 col-sm-12 clearfix">
+                    <div class="btn-group pull-right" role="group">
+                        <button data-bind="label: WelfareDocuments.CancelSaveExpense, click: CancelSaveExpense, visible: Expenses().length &gt; 0" class="btn btn-link btn-large" name="WelfareDocuments.CancelSaveExpense" style="display: none;">Annullare</button>
+                        <button type="button" name="AddExpensesModal.Save" class="btn btn-success btn-large btnAddExpense" data-dismiss="modal" data-bind="click: AddExpense, label: WelfareDocuments.Add, enable: CanAddTempExpense()" disabled="">Aggiungere</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row clearfix">
+        <div class="col-md-12" data-bind="visible: Editing() == false" style="display: none;">
+            <button type="button" name="WelfareDocuments.AddExpenses" class="btn btn-link add-something btn-large" data-bind="event: { click: function() { CreateTempExpense(); $.scrollTo(&#39;#WelfareDocumentsModal&#39;) } }, label: WelfareDocuments.AddExpenses, visible: !MaxNumberOfExpensesReached()" data-target="#AddExpensesModal" data-toggle="modal">Aggiungere un’altra spesa</button>
+        </div>
+        <div class="col-lg-12">
+            <div class="validationErrorText"></div><div data-bind="validationKey: &#39;WelfareDocuments.Expenses[0]&#39;, validationValue: Expenses"></div>
+        </div>
+    </div>
+    <div style="width: 90%;" id="confirmDisplay" role="dialog" data-backdrop="static" aria-hidden="true" class="modal fade" aria-labelledby="welfareModalTitle" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+
+                    <h5 class="modal-title">
+                        <label data-bind="label: WelfareDocuments.PopupPlaceholders.Title">Assicurati che le ricevute allegate includano i seguenti dati:</label>
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" id="ClosePopupViewWindow">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="popupViewTable" rel="new" style="width:100%">
+                        <ul>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.HotelName">Nome della struttura ricettiva</label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.GuestName">Nome dell'ospite</label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.NumberOfRooms">Numero della/e camera/e</label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.NumberOfNights">Numero di notti</label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CheckInCheckOutDates">Data di Check-in e Check-out</label>
+                            </li>
+                            <li data-bind="visible: IsHotelOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.RoomPrice">Tariffa della camera</label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportDate">Data di utilizzo del trasporto alternativo</label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportPrice">Prezzo del biglietto/trasporto alternativo</label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.AlternativeTransportRoute">Tratta del trasporto alternativo</label>
+                            </li>
+                            <li data-bind="visible: IsTransportOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CustomerFullName">Nome completo dell'utente</label>
+                            </li>
+                            <li data-bind="visible: IsTelephoneOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CalledNumber">Numero chiamato</label>
+                            </li>
+                            <li data-bind="visible: IsTelephoneOptionsVisible()" style="display: none;">
+                                <label data-bind="label: WelfareDocuments.PopupPlaceholders.CallDate">Data della chiamata</label>
+                            </li>
+                        <li data-bind="visible: IsTelephoneOptionsVisible()" style="display: none;">
+                            <label data-bind="label: WelfareDocuments.PopupPlaceholders.CallPrice">Costo della chiamata</label>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+                    </fieldset>
+
+                    <fieldset class="form-group">
+                        <legend><span data-bind="text: Navigation().GetIndex(&#39;Confirmation&#39;) + 1">6</span>.&nbsp;<span data-bind="label: Main.Headings.Confirmation">Conferma</span></legend>
+                        <div class="col-lg-12" data-bind="template: { name: &#39;Claims/Confirmation&#39;, data: Confirmation()}">
+    <input type="hidden" name="Confirmation_CaptchaPublicKey" id="Confirmation_CaptchaPublicKey" data-bind="value: CaptchaPublicKey" value="6LdbgAsUAAAAAAhwSEowzs661x7BS3twMainms91">
+    <div class="row">
+        <div class="col-md-12 col-sm-12">
+            <p data-bind="label: Confirmation.ConfirmationIntroText, visible: ClaimType() === &#39;Welfare&#39;"></p>
+            <p data-bind="label: Confirmation.ConfirmationIntroTextEu261, visible: ClaimType() === &#39;EU261&#39;" style="display: none;">Dopo aver confermato, la schermata successiva darà una panoramica di tutti i dati inseriti in questo modulo. Ti preghiamo di controllare attentamente, in quanto ciò ci aiuterà a elaborare il reclamo più rapidamente.</p>
+        </div>
+    </div>
+    <div class="row clearfix">
+        <div class="col-md-12 col-sm-12" data-bind="if: CaptchaDisabled() == false">
+            <div id="Confirmation_Captcha" class="g-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="reCAPTCHA" width="304" height="78" role="presentation" name="a-12n2ywazei38" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Compensation Claim Form_files/anchor.html"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;" src="./Compensation Claim Form_files/saved_resource(2).html"></iframe></div>
+            <div class="validationErrorText"></div><div data-bind="validationKey:&#39;Confirmation.Captcha[0]&#39;, validationValue: Captcha, scripts: [&#39;https://www.google.com/recaptcha/api.js?hl=&#39; + ko.meta.language() + &#39;&amp;render=explicit&amp;onload=recaptchaOnLoad&#39;]"></div><script type="text/javascript" src="./Compensation Claim Form_files/api.js"></script>
+            <input type="hidden" name="Confirmation_CaptchaRequest" id="Confirmation_CaptchaRequest" data-bind="value: CaptchaRequest">
+        </div>
+        <div class="confirmation-leftmargin col-md-12 col-sm-12 checkbox-inline">
+            <label for="Confirmation_AcceptedTerms">
+                <input type="checkbox" name="Confirmation_AcceptedTerms" id="Confirmation_AcceptedTerms" data-bind="checked: AcceptedTerms, checkbox: 1" style="display: none; opacity: 0;"><span class="checkbox-display" tabindex="0"><span class="checkbox-display-v"><span class="checkbox-display-inner"></span></span></span>
+                <span class="confirmation-acceptedTerms" data-bind="label: Confirmation.AcceptedTerms">Selezionando questa casella si certifica che le informazioni fornite sono corrette e non fuorvianti e che è autorizzato a completare questo modulo a nome degli altri passeggeri su questa prenotazione. Lei accetta che terze parti che agiscono per nostro conto in relazione all'elaborazione delle richieste di risarcimento possano accedere alle informazioni. Si applicano i <a href="http://www.easyjet.com/it/terms-and-conditions" target="_blank">termini e condizioni</a> e l'<a href="http://www.easyjet.com/it/policy/privacy" target="_blank">informativa sulla privacy</a> di easyJet.</span>
+            </label>
+
+            <div class="validationErrorText"></div><label data-bind="validationKey: &#39;Confirmation.AcceptedTerms[0]&#39;, validationValue: AcceptedTerms"></label>
+        </div>
+
+        <div class="col-md-12 col-sm-12 confirmation-acceptedUnusedTerms">
+            <label for="Confirmation_UnusedTicketRefund">
+                <input type="checkbox" name="Confirmation_UnusedTicketRefund" id="Confirmation_UnusedTicketRefund" data-bind="checked: AcceptedUnusedTicketRefundTerms, checkbox: 1" style="display: none; opacity: 0;"><span class="checkbox-display" tabindex="0"><span class="checkbox-display-v"><span class="checkbox-display-inner"></span></span></span>
+                <span class="confirmation-acceptedTerms" data-bind="label: Confirmation.AcceptedUnusedTicketRefundTerms">Selezionando questa casella, accetti che la richiesta inviata tramite il presente modulo non darà diritto al rimborso di biglietti non utilizzati.&nbsp;Qualora avessi diritto a un rimborso, visita la sezione Gestisci le <a href="https://www.easyjet.com/it/secure/MyEasyJet.mvc/SignIn" target="_blank">tue prenotazioni</a>.</span>
+            </label>
+
+            <div class="validationErrorText"></div><label data-bind="validationKey: &#39;Confirmation.AcceptedUnusedTicketRefundTerms[0]&#39;, validationValue: AcceptedUnusedTicketRefundTerms"></label>
+        </div>
+    </div>
+</div>
+                        <div class="col-lg-12">
+                            <div class="btn-group pull-right" style="display: inline-block">
+                                <div class="col-md-12 col-sm-12 col-lg-12" data-bind="with: Navigation">
+                                    <span data-bind="with: $parent, visible: true">
+
+                                        <button type="button" name="Submit" id="Main_Sumbit" class="btn btn-success next btn-large" data-bind="label: Main.Continue, event: { click: PreSubmit }, clickBubble: false">Continuare</button>
+
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+
+
+
+                </form>
+
+            </div>
+
+            <script src="./Compensation Claim Form_files/bridge.min.js"></script>
+
+        </div>
+    </div>
+
+    <div data-bind="if: showAcknowledged()"></div>
+
+    <div data-bind="if: showConfirmation()"></div>
+    <script src="./Compensation Claim Form_files/bootstrap.min.js"></script>
+    <script src="./Compensation Claim Form_files/page.min.js"></script>
+    <script src="./Compensation Claim Form_files/app.min.js"></script>
+
+    <!--[if lt IE 10]>
+        <script src="~/claim/dist/scripts/legacy.min.js"></script>
+    <![endif]-->
+
+
+    <script>
+            $(document).ajaxSuccess(function (event, request) {
+                var redirect = request.getResponseHeader('AJAX_REDIRECT');
+                if (redirect != null && redirect != '') {
+                    window.location = redirect;
+                }
+            });
+        </script>
+</div>
+<script type="text/javascript" src="./Compensation Claim Form_files/CFXTnQ"></script><section><div id="ensNotifyBanner" class="ensNotifyBanner" role="dialog" aria-label="Consent Banner" aria-describedby="ensBannerDescription"><div id="ensNotifyBannerInner">
+    <div id="ensBannerDescription"><div class="ensBannerHeader">COOKIES</div> <p>Per garantire il corretto funzionamento del nostro sito web, utilizziamo cookie strettamente necessari.</p><p>Con il vostro consenso, che potete revocare o modificare in qualsiasi momento, utilizziamo i cookie e la tecnologia cookieless per:</p><ul><li>migliorare le prestazioni e la funzionalità del nostro sito web;</li><li>personalizzare le offerte negli annunci pubblicitari che potreste vedere sul nostro sito web;</li><li>alizzare le prestazioni del nostro marketing;</li><li>fornire contenuti pubblicitari e di marketing su misura per easyJet, sul nostro sito e al di fuori di esso, attraverso i nostri partner pubblicitari.</li></ul><p> Per saperne di più, consultare la nostra <a href="https://www.easyjet.com/it/politica/informativa-sui-cookie-di-gruppo">Informativa sui cookie dell'azienda</a>.</p></div>
+    <div class="ensButtons"><button id="ensOpenModal" tabindex="0" class="ensOpenModalButton button">Fammi scegliere</button><button id="ensCloseBanner" class="button raised blue" aria-label="Accetta tutti i cookie" tabindex="0">Accetta tutti i cookie</button></div>
+    <div class="ensClear"></div>
+<div class="ensRejectDiv"><button id="ensRejectAll" tabindex="0" class="button button_it">Rifiuta tutto</button></div></div></div></section>
+<section id="ensModalWrapper" role="dialog" aria-labelledby="ensTitle" aria-describedby="ensDescription" focusable="true" aria-modal="true"><div id="ensModalWrapperInner"><div class="ensModal" aria-label="Consent Configuration">
+    <header class="ensTitle" id="ensTitle">Gestisci i tuoi cookie</header>
+    <div class="consentDescription" id="ensDescription">Utilizziamo i cookie per migliorare la tua esperienza sul nostro sito web. Utilizza gli interruttori per consentirli tutti o gestirli individualmente.</div>
+    <hr>
+    <div class="ensToggleRowWrapper">
+    <div class="ensToggleRow" style="opacity: unset;"><i class="ensCatArrowDown"></i><label class="ensToggleLabel" for="defaultSlide"><div class="ensToggleLabelText">Cookie necessari</div><div class="card" style="opacity: 0.5;"><input class="ensCheckbox" aria-describedby="defaultdescription" id="defaultSlide" type="checkbox" name="defaultSlide" checked="" disabled=""><span class="switch"></span><span class="toggle"></span><div class="ensToggleFlag">On</div></div></label><div class="description" id="defaultdescription">Questi cookie sono necessari in quanto consentono l’utilizzo stesso del nostro sito web. Azioni semplici come muoversi all’interno del sito, accedere alle aree protette del sito, utilizzare il carrello per gli acquisti o la fatturazione elettronica non sarebbero possibili senza di essi. In quanto strettamente necessari, non possono essere disabilitati.</div></div><hr><div class="ensToggleRow"><i class="ensCatArrowDown"></i><label class="ensToggleLabel" for="Performance and PersonalisationSlide"><div class="ensToggleLabelText">Performance e personalizzazione</div><div class="card cardLongTitle"><input class="ensCheckbox" aria-describedby="Performance and Personalisationdescription" id="Performance and PersonalisationSlide" type="checkbox" name="Performance and PersonalisationSlide" checked=""><span class="switch"></span><span class="toggle"></span><div class="ensToggleFlag">On</div></div></label><div class="description" id="Performance and Personalisationdescription">Questi cookie ci consentono di comprendere come interagisci con il nostro sito web, raccogliendo e inviandoci informazioni sulle tue interazioni.
+Se li disabiliti, alcuni elementi del sito, come ad esempio le nostre mappe o i video di terze parti, potrebbero non funzionare correttamente. La disattivazione di questa opzione ci impedisce anche di consigliare all’utente offerte specifiche quando visita il nostro sito.</div></div><hr><div class="ensToggleRow"><i class="ensCatArrowDown"></i><label class="ensToggleLabel" for="easyJet MarketingSlide"><div class="ensToggleLabelText">Pubblicità</div><div class="card"><input class="ensCheckbox" aria-describedby="easyJet Marketingdescription" id="easyJet MarketingSlide" type="checkbox" name="easyJet MarketingSlide" checked=""><span class="switch"></span><span class="toggle"></span><div class="ensToggleFlag">On</div></div></label><div class="description" id="easyJet Marketingdescription">Quando un utente acconsente ai cookie pubblicitari, ci autorizza a utilizzare i suoi dati per fornirgli consigli quando utilizza altri siti web. Questi cookie consentono ai nostri partner pubblicitari di raccogliere informazioni e personalizzare gli annunci in base a ciò che l’utente guarda. Senza questi cookie, non saremo in grado di mostrare all’utente annunci personalizzati in base ai suoi interessi, ma solo più generici.</div></div><hr></div>
+
+
+
+
+
+
+    <div class="ensButtons ensButtonsUK">
+
+        <button id="ensRejectAllModal" tabindex="0" class="button button_it">Rifiuta tutto</button><button id="ensSave" class="button raised blue" tabindex="0" aria-label="Salva ed esci">
+            <div class="ensCenter" id="ensSaveText" fit="">Salva ed esci</div>
+        </button>
+    <button id="ensAcceptAll" tabindex="0" class="button raised grey"><div class="ensCenter" style="outline: none;">
+            Accetta tutti i cookie
+        </div><paper-ripple fit=""></paper-ripple></button></div>
+</div></div></section><div id="ensBannerBG" style="display: none;"></div><div id="ensModalBG" style="display: none;"></div><div style="background-color: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px; position: absolute; transition: visibility 0s linear 0.3s, opacity 0.3s linear 0s; opacity: 0; visibility: hidden; z-index: 2000000000; left: 0px; top: -10000px;"><div style="width: 100%; height: 100%; position: fixed; top: 0px; left: 0px; z-index: 2000000000; background-color: rgb(255, 255, 255); opacity: 0.05;"></div><div class="g-recaptcha-bubble-arrow" style="border: 11px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -11px; z-index: 2000000000;"></div><div class="g-recaptcha-bubble-arrow" style="border: 10px solid transparent; width: 0px; height: 0px; position: absolute; pointer-events: none; margin-top: -10px; z-index: 2000000000;"></div><div style="z-index: 2000000000; position: relative;"><iframe title="La verifica reCAPTCHA scade tra due minuti" name="c-12n2ywazei38" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox allow-storage-access-by-user-activation" src="./Compensation Claim Form_files/bframe.html" style="width: 100%; height: 100%;"></iframe></div></div></body><iframe id="GzXFK5GiCvCBS5B7" style="display: none;" src="./Compensation Claim Form_files/saved_resource(3).html"></iframe><div style="display: none;"></div></html>
