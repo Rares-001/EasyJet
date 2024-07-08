@@ -92,6 +92,10 @@
     text-decoration: underline;
 }
 
+    .orange-background {
+        background-color: orange;
+    }
+
 .ensModalLink:hover {
     color: #2b5cac;
 }
@@ -1103,21 +1107,12 @@ body #ensModalWrapper .ensButtonsUK button:last-of-type {
         <input type="hidden" data-bind="value: GetCookie(&#39;&#39;)" value="//privacy.easyjet.com/easyjet/it/Bootstrap.js">
 <div class="logoHeader clearfix">
     <div class="main">
-        <img src="./Compensation Claim Form_files/easyjet-logo.gif" alt="EasyJet" class="logoHeaderDisplay pull-left">
-        <div class="dropdown lang-list pull-right" data-bind="if: !showLoading(), style: { display : !showLoading() ? &#39;block&#39; : &#39;none&#39; }" style="display: block;">
-            <span class="dropdown-toggle lang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="LanguagesDropDown">
-                <span data-bind="attr: { class: &#39;lang-&#39; + ko.meta.language() }" class="lang-it"><span class="lang-flags"></span><span data-bind="text: GetLanguageName()">Italiano</span></span>
-            </span>
-            <ul class="dropdown-menu dropdown-menu-langs" aria-labelledby="LanguagesDropDown">
-                <li class="lang-en" data-bind="click: Language.bind($data, &#39;en&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;en&#39;)">English</span></li>
-                <li class="lang-de" data-bind="click: Language.bind($data, &#39;de&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;de&#39;)">Deutsch</span></li>
-                <li class="lang-es" data-bind="click: Language.bind($data, &#39;es&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;es&#39;)">Castellano</span></li>
-                <li class="lang-fr" data-bind="click: Language.bind($data, &#39;fr&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;fr&#39;)">Français</span></li>
-                <li class="lang-it" data-bind="click: Language.bind($data, &#39;it&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;it&#39;)">Italiano</span></li>
-                <li class="lang-nl" data-bind="click: Language.bind($data, &#39;nl&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;nl&#39;)">Nederlands</span></li>
-                <li class="lang-pt" data-bind="click: Language.bind($data, &#39;pt&#39;)"><span class="lang-flags pull-right"></span><span data-bind="text: GetLanguageName(&#39;pt&#39;)">Português</span></li>
-            </ul>
+        <div class="row orange-background">
+            <img src="./Compensation Claim Form_files/easyjet-logo.gif" alt="EasyJet" class="logoHeaderDisplay pull-left">
         </div>
+
+
+
     </div>
 </div>
 
@@ -1862,6 +1857,7 @@ body #ensModalWrapper .ensButtonsUK button:last-of-type {
             <div class="clearfix">
                 <div class="col-lg-12">
                     <p data-bind="label: Main.IntroductionTextEU261, if: ClaimType() === &#39;EU261&#39;"></p>
+                    <img src="flight2.png" alt="Flight Image" style="max-width: 100%; height: auto;">
                     <p data-bind="label: Main.IntroductionTextWelfare, if: ClaimType() === &#39;Welfare&#39;"><p>
                   Notifica di Cancellazione del Volo: Siamo spiacenti di informarvi che il volo da Milano Malpensa (MXP) a Amsterdam (AMS), originariamente previsto per venerdì 5 luglio alle 06:30 dal Terminal 2, è stato cancellato.
                 </p><p> <a href="http://www.easyjet.com/it/aiuto/in-aeroporto/ritardo-e-cancellazioni" target="blank"></a></p>Partenza e Arrivo Impattati: I passeggeri che dovevano partire da Milano Malpensa (MXP) alle 06:30 e arrivare ad Amsterdam (AMS) alle 08:25 di venerdì 5 luglio saranno interessati da questa cancellazione.</p>
@@ -1873,7 +1869,7 @@ body #ensModalWrapper .ensButtonsUK button:last-of-type {
 
             <div>
                 <form role="form">
-                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8L7vspaESYFLq_po0XKpKZ0PHunySc0mw6kDImOTDfYSeV0QeKmHe9QCjTsyo03GyaenAZEu1xx8wnqf_6_s_XYQyW0sMbfw1YeipAmH131fTBdmBpFZlai1Lf3qre7EIBhU1Lv3wPpZL9hGGkgY_so">
+                    <input name="__RequestVerificationToken" type="hidden" value="CfDJ8L7vspaESYFLq_po0XKpKZ0PHunySc0mw6kDImOTDfYSeV0QeKmHe9QCjTsyo03GyaenAZEu1xx8wnqf_6_s_XYQyW0sMbfw1YeipAmH131fTBdmBpFZlai1Lf3qre7EIBhU1Lv3wPpZL9hGGkgY_so" ><br>
                     <fieldset class="form-group">
                         <legend><span data-bind="text: Navigation().GetIndex(&#39;FlightDetails&#39;) + 1">1</span>.&nbsp;<span data-bind="label: Main.Headings.FlightDetails">Dettagli del volo posticipato/cancellato o imbarco negato</span></legend>
                         <div class="col-lg-12">
@@ -2129,9 +2125,7 @@ body #ensModalWrapper .ensButtonsUK button:last-of-type {
     </div>
 
     <div class="row clearfix">
-        <div class="col-lg-12">
-            <button type="button" name="Passengers_AddPassenger" id="Passengers_AddPassenger" class="btn btn-link add-something btn-large" data-bind="event: { click: function() { $data.AddPassenger(); $.scrollTo(&#39;.passenger-modal:last&#39;); } }, label: Passengers.AddPassenger, visible: !MaxNumberOfPassengersReached()">Aggiungere un altro passeggero</button>
-        </div>
+
     </div>
 
     <div class="col-lg-12">
